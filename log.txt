@@ -1,0 +1,2514 @@
+Rendering a 1200x800 image with 10 samples per pixel in 8x8 blocks.
+Current Device Number: 0
+  Device name: TITAN Xp
+  Memory Clock Rate (KHz): 5705000
+  Memory Bus Width (bits): 384
+  Peak Memory Bandwidth (GB/s): 547.680000
+  Total global memory: 12787.122176 MB
+  Available (free) global memory: 12007.571456 MB
+
+┌───────────────────────────────────────────────────────────────────────┐
+│ Smallest block type:                                            4Area │
+│ Max. #objects:           33554432                                     │
+│ Block size:                  1856 bytes                               │
+│ #Blocks:                   524288                                     │
+│ #Bitmap levels:                 4                                     │
+│ Data buffer size:     000928.000000 MB                                │
+│ Allocator overead:    000006.286545 MB + block overhead               │
+│ Total memory usage:   000934.286560 MB                                │
+└───────────────────────────────────────────────────────────────────────┘
+┌───────────────────────────────────────────────────────────────────────┐
+│ Block stats for                                 4Area (type ID     0) │
+├────────────────────┬──────────────────────────────────────────────────┤
+│ #fields            │        6                                         │
+│ #objects / block   │       64                                         │
+│ block size         │     1856 bytes                                   │
+│ base class         │                                                v │
+│ is abstract        │        0                                         │
+│ data seg. [64] sz  │     1792 bytes                                   │
+│         (unpadded) │     1792 bytes                                   │
+│        (simple sz) │     1792 bytes                                   │
+│    (padding waste) │        0 bytes                                   │
+│ data seg. [ 1] sz  │       64 bytes                                   │
+│         (unpadded) │       28 bytes                                   │
+│ data seg. [64] sz  │     1792 bytes                                   │
+│         (unpadded) │     1792 bytes                                   │
+├────────────────────┴──────────────────────────────────────────────────┤
+│ Fields                                                                │
+├───────┬─────────────────┬───────────────────────┬──────────┬──────────┤
+│ Index │ Def. Class      │ Type                  │ Size     │ Offset   │
+├───────┼─────────────────┼───────────────────────┼──────────┼──────────┤
+│     5 │           4Area │                     i │        4 │       24 │
+│     4 │           4Area │                     i │        4 │       20 │
+│     3 │           4Area │                     i │        4 │       16 │
+│     2 │           4Area │                     i │        4 │       12 │
+│     1 │           4Area │                     i │        4 │        8 │
+│     0 │           4Area │             P7AllArgs │        8 │        0 │
+├───────┼─────────────────┼───────────────────────┼──────────┼──────────┤
+│     Σ │                 │                       │       28 │          │
+└───────┴─────────────────┴───────────────────────┴──────────┴──────────┘
+  Data buffer:  0x7fd38e000000
+  Available (free) global memory after init: 11026.104320 MB
+
+=+=+=+=+= Iteration 1 =+=+=+=+=
+area_rough_count: 64
+=+=+=+=+= Iteration 2 =+=+=+=+=
+area_rough_count: 64
+=+=+=+=+= Iteration 3 =+=+=+=+=
+area_rough_count: 64
+=+=+=+=+= Iteration 4 =+=+=+=+=
+area_rough_count: 64
+=+=+=+=+= Iteration 5 =+=+=+=+=
+area_rough_count: 64
+=+=+=+=+= Iteration 6 =+=+=+=+=
+area_rough_count: 64
+=+=+=+=+= Iteration 7 =+=+=+=+=
+area_rough_count: 64
+=+=+=+=+= Iteration 8 =+=+=+=+=
+area_rough_count: 64
+=+=+=+=+= Iteration 9 =+=+=+=+=
+area_rough_count: 128
+=+=+=+=+= Iteration 10 =+=+=+=+=
+area_rough_count: 128
+=+=+=+=+= Iteration 11 =+=+=+=+=
+area_rough_count: 64
+=+=+=+=+= Iteration 12 =+=+=+=+=
+area_rough_count: 192
+=+=+=+=+= Iteration 13 =+=+=+=+=
+area_rough_count: 192
+=+=+=+=+= Iteration 14 =+=+=+=+=
+area_rough_count: 128
+=+=+=+=+= Iteration 15 =+=+=+=+=
+area_rough_count: 256
+=+=+=+=+= Iteration 16 =+=+=+=+=
+area_rough_count: 256
+=+=+=+=+= Iteration 17 =+=+=+=+=
+area_rough_count: 256
+=+=+=+=+= Iteration 18 =+=+=+=+=
+area_rough_count: 256
+=+=+=+=+= Iteration 19 =+=+=+=+=
+area_rough_count: 256
+=+=+=+=+= Iteration 20 =+=+=+=+=
+area_rough_count: 256
+=+=+=+=+= Iteration 21 =+=+=+=+=
+area_rough_count: 256
+=+=+=+=+= Iteration 22 =+=+=+=+=
+area_rough_count: 256
+=+=+=+=+= Iteration 23 =+=+=+=+=
+area_rough_count: 320
+=+=+=+=+= Iteration 24 =+=+=+=+=
+area_rough_count: 320
+=+=+=+=+= Iteration 25 =+=+=+=+=
+area_rough_count: 320
+=+=+=+=+= Iteration 26 =+=+=+=+=
+area_rough_count: 384
+render x = [600, 600], y = [0, 0]
+render x = [600, 600], y = [1, 1]
+=+=+=+=+= Iteration 27 =+=+=+=+=
+area_rough_count: 384
+render x = [750, 750], y = [1, 1]
+render x = [900, 900], y = [0, 0]
+render x = [619, 619], y = [0, 0]
+render x = [675, 675], y = [0, 0]
+render x = [675, 675], y = [1, 1]
+render x = [619, 619], y = [1, 1]
+render x = [900, 900], y = [1, 1]
+render x = [621, 621], y = [0, 0]
+render x = [621, 621], y = [1, 1]
+render x = [902, 902], y = [1, 1]
+render x = [601, 601], y = [0, 0]
+render x = [601, 601], y = [1, 1]
+render x = [752, 752], y = [0, 0]
+render x = [752, 752], y = [1, 1]
+render x = [902, 902], y = [0, 0]
+render x = [750, 750], y = [0, 0]
+=+=+=+=+= Iteration 28 =+=+=+=+=
+area_rough_count: 384
+render x = [676, 676], y = [0, 0]
+render x = [676, 676], y = [1, 1]
+render x = [827, 827], y = [0, 0]
+render x = [827, 827], y = [1, 1]
+render x = [757, 757], y = [1, 1]
+render x = [907, 907], y = [0, 0]
+render x = [682, 682], y = [0, 0]
+render x = [682, 682], y = [1, 1]
+render x = [901, 901], y = [1, 1]
+render x = [751, 751], y = [0, 0]
+render x = [1053, 1053], y = [0, 0]
+render x = [1050, 1050], y = [0, 0]
+render x = [1050, 1050], y = [1, 1]
+render x = [938, 938], y = [1, 1]
+render x = [825, 825], y = [0, 0]
+render x = [825, 825], y = [1, 1]
+render x = [755, 755], y = [1, 1]
+render x = [905, 905], y = [0, 0]
+render x = [941, 941], y = [1, 1]
+render x = [751, 751], y = [1, 1]
+render x = [901, 901], y = [0, 0]
+render x = [1052, 1052], y = [0, 0]
+render x = [1052, 1052], y = [1, 1]
+render x = [680, 680], y = [0, 0]
+render x = [680, 680], y = [1, 1]
+render x = [940, 940], y = [1, 1]
+render x = [620, 620], y = [0, 0]
+render x = [620, 620], y = [1, 1]
+=+=+=+=+= Iteration 29 =+=+=+=+=
+area_rough_count: 384
+render x = [1063, 1063], y = [0, 0]
+render x = [1063, 1063], y = [1, 1]
+render x = [942, 942], y = [1, 1]
+render x = [838, 838], y = [0, 0]
+render x = [835, 835], y = [0, 0]
+render x = [1060, 1060], y = [0, 0]
+render x = [1060, 1060], y = [1, 1]
+render x = [1051, 1051], y = [0, 0]
+render x = [1051, 1051], y = [1, 1]
+render x = [939, 939], y = [1, 1]
+render x = [826, 826], y = [0, 0]
+render x = [826, 826], y = [1, 1]
+render x = [756, 756], y = [1, 1]
+render x = [906, 906], y = [0, 0]
+render x = [1062, 1062], y = [0, 0]
+render x = [1062, 1062], y = [1, 1]
+render x = [681, 681], y = [0, 0]
+render x = [681, 681], y = [1, 1]
+render x = [837, 837], y = [0, 0]
+render x = [1054, 1054], y = [0, 0]
+=+=+=+=+= Iteration 30 =+=+=+=+=
+area_rough_count: 384
+render x = [1064, 1064], y = [0, 0]
+render x = [1064, 1064], y = [1, 1]
+render x = [839, 839], y = [0, 0]
+render x = [836, 836], y = [0, 0]
+render x = [1061, 1061], y = [0, 0]
+render x = [1061, 1061], y = [1, 1]
+=+=+=+=+= Iteration 31 =+=+=+=+=
+area_rough_count: 320
+render x = [602, 602], y = [0, 0]
+render x = [602, 602], y = [1, 1]
+render x = [677, 677], y = [0, 0]
+render x = [677, 677], y = [1, 1]
+=+=+=+=+= Iteration 32 =+=+=+=+=
+area_rough_count: 320
+render x = [828, 828], y = [0, 0]
+render x = [828, 828], y = [1, 1]
+render x = [758, 758], y = [1, 1]
+render x = [908, 908], y = [0, 0]
+render x = [683, 683], y = [0, 0]
+render x = [683, 683], y = [1, 1]
+render x = [978, 978], y = [0, 0]
+render x = [753, 753], y = [0, 0]
+render x = [753, 753], y = [1, 1]
+render x = [903, 903], y = [0, 0]
+render x = [678, 678], y = [0, 0]
+render x = [678, 678], y = [1, 1]
+render x = [1053, 1053], y = [1, 1]
+=+=+=+=+= Iteration 33 =+=+=+=+=
+area_rough_count: 384
+render x = [1065, 1065], y = [0, 0]
+render x = [1065, 1065], y = [1, 1]
+render x = [840, 840], y = [0, 0]
+render x = [840, 840], y = [1, 1]
+render x = [990, 990], y = [0, 0]
+render x = [990, 990], y = [1, 1]
+render x = [754, 754], y = [0, 0]
+render x = [754, 754], y = [1, 1]
+render x = [904, 904], y = [0, 0]
+render x = [679, 679], y = [0, 0]
+render x = [679, 679], y = [1, 1]
+render x = [1054, 1054], y = [1, 1]
+render x = [829, 829], y = [0, 0]
+render x = [829, 829], y = [1, 1]
+render x = [759, 759], y = [1, 1]
+render x = [909, 909], y = [0, 0]
+render x = [684, 684], y = [0, 0]
+render x = [684, 684], y = [1, 1]
+=+=+=+=+= Iteration 34 =+=+=+=+=
+area_rough_count: 384
+render x = [982, 982], y = [0, 0]
+render x = [1057, 1057], y = [1, 1]
+render x = [983, 983], y = [0, 0]
+render x = [980, 980], y = [0, 0]
+render x = [1055, 1055], y = [1, 1]
+render x = [1055, 1055], y = [0, 0]
+render x = [830, 830], y = [0, 0]
+render x = [833, 833], y = [0, 0]
+render x = [833, 833], y = [1, 1]
+render x = [830, 830], y = [1, 1]
+render x = [1057, 1057], y = [0, 0]
+render x = [1058, 1058], y = [0, 0]
+render x = [1058, 1058], y = [1, 1]
+render x = [1067, 1067], y = [0, 0]
+render x = [1067, 1067], y = [1, 1]
+render x = [842, 842], y = [0, 0]
+render x = [1066, 1066], y = [0, 0]
+render x = [1066, 1066], y = [1, 1]
+render x = [841, 841], y = [0, 0]
+render x = [841, 841], y = [1, 1]
+render x = [991, 991], y = [0, 0]
+render x = [991, 991], y = [1, 1]
+render x = [832, 832], y = [0, 0]
+render x = [832, 832], y = [1, 1]
+=+=+=+=+= Iteration 35 =+=+=+=+=
+area_rough_count: 384
+render x = [1068, 1068], y = [1, 1]
+render x = [843, 843], y = [0, 0]
+render x = [1056, 1056], y = [0, 0]
+render x = [831, 831], y = [0, 0]
+render x = [834, 834], y = [0, 0]
+render x = [834, 834], y = [1, 1]
+render x = [831, 831], y = [1, 1]
+render x = [984, 984], y = [0, 0]
+render x = [1059, 1059], y = [0, 0]
+render x = [981, 981], y = [0, 0]
+render x = [1056, 1056], y = [1, 1]
+render x = [1059, 1059], y = [1, 1]
+render x = [1068, 1068], y = [0, 0]
+=+=+=+=+= Iteration 36 =+=+=+=+=
+area_rough_count: 320
+=+=+=+=+= Iteration 37 =+=+=+=+=
+area_rough_count: 384
+=+=+=+=+= Iteration 38 =+=+=+=+=
+area_rough_count: 384
+=+=+=+=+= Iteration 39 =+=+=+=+=
+area_rough_count: 384
+=+=+=+=+= Iteration 40 =+=+=+=+=
+area_rough_count: 512
+=+=+=+=+= Iteration 41 =+=+=+=+=
+area_rough_count: 512
+=+=+=+=+= Iteration 42 =+=+=+=+=
+area_rough_count: 448
+=+=+=+=+= Iteration 43 =+=+=+=+=
+area_rough_count: 448
+=+=+=+=+= Iteration 44 =+=+=+=+=
+area_rough_count: 512
+=+=+=+=+= Iteration 45 =+=+=+=+=
+area_rough_count: 512
+=+=+=+=+= Iteration 46 =+=+=+=+=
+area_rough_count: 512
+=+=+=+=+= Iteration 47 =+=+=+=+=
+area_rough_count: 576
+=+=+=+=+= Iteration 48 =+=+=+=+=
+area_rough_count: 576
+=+=+=+=+= Iteration 49 =+=+=+=+=
+area_rough_count: 576
+=+=+=+=+= Iteration 50 =+=+=+=+=
+area_rough_count: 640
+=+=+=+=+= Iteration 51 =+=+=+=+=
+area_rough_count: 640
+render x = [907, 907], y = [46, 46]
+=+=+=+=+= Iteration 52 =+=+=+=+=
+area_rough_count: 640
+render x = [510, 510], y = [1, 1]
+render x = [510, 510], y = [0, 0]
+=+=+=+=+= Iteration 53 =+=+=+=+=
+area_rough_count: 640
+render x = [519, 519], y = [1, 1]
+render x = [519, 519], y = [0, 0]
+render x = [932, 932], y = [215, 215]
+render x = [1016, 1016], y = [203, 203]
+render x = [1016, 1016], y = [103, 103]
+render x = [516, 516], y = [1, 1]
+render x = [516, 516], y = [0, 0]
+render x = [929, 929], y = [215, 215]
+render x = [1013, 1013], y = [203, 203]
+render x = [1013, 1013], y = [103, 103]
+render x = [521, 521], y = [1, 1]
+render x = [521, 521], y = [0, 0]
+render x = [934, 934], y = [215, 215]
+=+=+=+=+= Iteration 54 =+=+=+=+=
+area_rough_count: 704
+render x = [520, 520], y = [1, 1]
+render x = [520, 520], y = [0, 0]
+render x = [933, 933], y = [215, 215]
+render x = [1017, 1017], y = [203, 203]
+render x = [1017, 1017], y = [103, 103]
+render x = [1034, 1034], y = [203, 203]
+render x = [1034, 1034], y = [103, 103]
+render x = [1034, 1034], y = [456, 456]
+render x = [517, 517], y = [1, 1]
+render x = [517, 517], y = [0, 0]
+render x = [1034, 1034], y = [65, 65]
+render x = [1034, 1034], y = [415, 415]
+render x = [930, 930], y = [215, 215]
+render x = [1014, 1014], y = [203, 203]
+render x = [1014, 1014], y = [103, 103]
+render x = [522, 522], y = [1, 1]
+render x = [522, 522], y = [0, 0]
+render x = [935, 935], y = [215, 215]
+render x = [1020, 1020], y = [203, 203]
+render x = [1020, 1020], y = [103, 103]
+render x = [1020, 1020], y = [456, 456]
+=+=+=+=+= Iteration 55 =+=+=+=+=
+area_rough_count: 704
+=+=+=+=+= Iteration 56 =+=+=+=+=
+area_rough_count: 640
+render x = [1039, 1039], y = [415, 415]
+render x = [1044, 1044], y = [103, 103]
+render x = [1044, 1044], y = [456, 456]
+render x = [1044, 1044], y = [65, 65]
+render x = [1044, 1044], y = [415, 415]
+render x = [1040, 1040], y = [65, 65]
+render x = [1040, 1040], y = [415, 415]
+render x = [1045, 1045], y = [103, 103]
+render x = [1045, 1045], y = [456, 456]
+render x = [1045, 1045], y = [65, 65]
+render x = [1045, 1045], y = [415, 415]
+render x = [1018, 1018], y = [203, 203]
+render x = [1037, 1037], y = [203, 203]
+render x = [1037, 1037], y = [103, 103]
+render x = [1037, 1037], y = [456, 456]
+render x = [1037, 1037], y = [65, 65]
+render x = [1037, 1037], y = [415, 415]
+render x = [1032, 1032], y = [203, 203]
+render x = [1032, 1032], y = [103, 103]
+render x = [1032, 1032], y = [456, 456]
+render x = [1032, 1032], y = [65, 65]
+render x = [1032, 1032], y = [415, 415]
+render x = [1018, 1018], y = [103, 103]
+render x = [1039, 1039], y = [65, 65]
+render x = [1018, 1018], y = [456, 456]
+=+=+=+=+= Iteration 57 =+=+=+=+=
+area_rough_count: 640
+render x = [1041, 1041], y = [415, 415]
+render x = [1044, 1044], y = [203, 203]
+render x = [1019, 1019], y = [103, 103]
+render x = [1019, 1019], y = [456, 456]
+render x = [1033, 1033], y = [65, 65]
+render x = [1033, 1033], y = [415, 415]
+render x = [1043, 1043], y = [65, 65]
+render x = [1043, 1043], y = [415, 415]
+render x = [1019, 1019], y = [203, 203]
+render x = [1039, 1039], y = [203, 203]
+render x = [1041, 1041], y = [103, 103]
+render x = [1041, 1041], y = [456, 456]
+render x = [1041, 1041], y = [65, 65]
+render x = [1038, 1038], y = [203, 203]
+render x = [1038, 1038], y = [103, 103]
+render x = [1038, 1038], y = [456, 456]
+render x = [1038, 1038], y = [65, 65]
+render x = [1038, 1038], y = [415, 415]
+render x = [1043, 1043], y = [103, 103]
+render x = [1043, 1043], y = [456, 456]
+render x = [1033, 1033], y = [203, 203]
+render x = [1033, 1033], y = [103, 103]
+render x = [1033, 1033], y = [456, 456]
+=+=+=+=+= Iteration 58 =+=+=+=+=
+area_rough_count: 640
+render x = [1042, 1042], y = [415, 415]
+render x = [1045, 1045], y = [203, 203]
+render x = [1042, 1042], y = [103, 103]
+render x = [1042, 1042], y = [456, 456]
+render x = [1042, 1042], y = [65, 65]
+render x = [1040, 1040], y = [203, 203]
+=+=+=+=+= Iteration 59 =+=+=+=+=
+area_rough_count: 576
+=+=+=+=+= Iteration 60 =+=+=+=+=
+area_rough_count: 704
+=+=+=+=+= Iteration 61 =+=+=+=+=
+area_rough_count: 704
+=+=+=+=+= Iteration 62 =+=+=+=+=
+area_rough_count: 704
+render x = [902, 902], y = [46, 46]
+render x = [902, 902], y = [28, 28]
+render x = [902, 902], y = [15, 15]
+=+=+=+=+= Iteration 63 =+=+=+=+=
+area_rough_count: 704
+render x = [1091, 1091], y = [201, 201]
+render x = [491, 491], y = [1, 1]
+render x = [491, 491], y = [0, 0]
+render x = [903, 903], y = [215, 215]
+render x = [903, 903], y = [115, 115]
+render x = [903, 903], y = [606, 606]
+render x = [903, 903], y = [506, 506]
+render x = [903, 903], y = [53, 53]
+render x = [903, 903], y = [306, 306]
+render x = [903, 903], y = [403, 403]
+=+=+=+=+= Iteration 64 =+=+=+=+=
+area_rough_count: 768
+=+=+=+=+= Iteration 65 =+=+=+=+=
+area_rough_count: 768
+render x = [980, 980], y = [8, 8]
+render x = [980, 980], y = [203, 203]
+render x = [980, 980], y = [103, 103]
+render x = [980, 980], y = [456, 456]
+render x = [980, 980], y = [65, 65]
+render x = [980, 980], y = [415, 415]
+render x = [924, 924], y = [28, 28]
+=+=+=+=+= Iteration 66 =+=+=+=+=
+area_rough_count: 768
+render x = [950, 950], y = [215, 215]
+render x = [950, 950], y = [115, 115]
+render x = [950, 950], y = [606, 606]
+render x = [950, 950], y = [506, 506]
+render x = [950, 950], y = [53, 53]
+render x = [950, 950], y = [306, 306]
+render x = [950, 950], y = [403, 403]
+render x = [925, 925], y = [28, 28]
+render x = [925, 925], y = [15, 15]
+render x = [925, 925], y = [46, 46]
+render x = [953, 953], y = [506, 506]
+render x = [953, 953], y = [53, 53]
+render x = [953, 953], y = [306, 306]
+render x = [948, 948], y = [215, 215]
+render x = [948, 948], y = [115, 115]
+render x = [948, 948], y = [606, 606]
+render x = [948, 948], y = [506, 506]
+render x = [948, 948], y = [53, 53]
+render x = [948, 948], y = [306, 306]
+render x = [948, 948], y = [403, 403]
+render x = [981, 981], y = [8, 8]
+render x = [981, 981], y = [203, 203]
+render x = [981, 981], y = [103, 103]
+render x = [981, 981], y = [456, 456]
+render x = [981, 981], y = [65, 65]
+render x = [981, 981], y = [415, 415]
+=+=+=+=+= Iteration 67 =+=+=+=+=
+area_rough_count: 768
+render x = [955, 955], y = [215, 215]
+render x = [955, 955], y = [115, 115]
+render x = [955, 955], y = [606, 606]
+render x = [1144, 1144], y = [201, 201]
+render x = [1144, 1144], y = [101, 101]
+render x = [1144, 1144], y = [26, 26]
+render x = [955, 955], y = [506, 506]
+render x = [955, 955], y = [53, 53]
+render x = [955, 955], y = [306, 306]
+render x = [1147, 1147], y = [201, 201]
+render x = [954, 954], y = [506, 506]
+render x = [954, 954], y = [53, 53]
+render x = [954, 954], y = [306, 306]
+render x = [1146, 1146], y = [201, 201]
+render x = [1146, 1146], y = [101, 101]
+render x = [1146, 1146], y = [26, 26]
+render x = [949, 949], y = [215, 215]
+render x = [1147, 1147], y = [101, 101]
+render x = [1147, 1147], y = [26, 26]
+=+=+=+=+= Iteration 68 =+=+=+=+=
+area_rough_count: 768
+render x = [956, 956], y = [215, 215]
+render x = [956, 956], y = [115, 115]
+render x = [956, 956], y = [606, 606]
+render x = [1145, 1145], y = [201, 201]
+render x = [1145, 1145], y = [101, 101]
+render x = [1145, 1145], y = [26, 26]
+render x = [956, 956], y = [506, 506]
+render x = [956, 956], y = [53, 53]
+render x = [956, 956], y = [306, 306]
+render x = [1148, 1148], y = [201, 201]
+render x = [1148, 1148], y = [101, 101]
+render x = [1148, 1148], y = [26, 26]
+=+=+=+=+= Iteration 69 =+=+=+=+=
+area_rough_count: 704
+render x = [1092, 1092], y = [201, 201]
+render x = [492, 492], y = [1, 1]
+render x = [492, 492], y = [0, 0]
+render x = [904, 904], y = [215, 215]
+render x = [904, 904], y = [115, 115]
+render x = [904, 904], y = [606, 606]
+render x = [904, 904], y = [506, 506]
+render x = [904, 904], y = [53, 53]
+render x = [904, 904], y = [306, 306]
+render x = [904, 904], y = [403, 403]
+render x = [924, 924], y = [15, 15]
+render x = [924, 924], y = [46, 46]
+render x = [926, 926], y = [28, 28]
+render x = [926, 926], y = [15, 15]
+render x = [926, 926], y = [46, 46]
+render x = [982, 982], y = [8, 8]
+render x = [982, 982], y = [203, 203]
+render x = [982, 982], y = [103, 103]
+render x = [982, 982], y = [456, 456]
+render x = [982, 982], y = [65, 65]
+render x = [982, 982], y = [415, 415]
+render x = [949, 949], y = [115, 115]
+render x = [949, 949], y = [606, 606]
+render x = [949, 949], y = [506, 506]
+render x = [949, 949], y = [53, 53]
+render x = [949, 949], y = [306, 306]
+render x = [949, 949], y = [403, 403]
+=+=+=+=+= Iteration 70 =+=+=+=+=
+area_rough_count: 704
+render x = [927, 927], y = [28, 28]
+render x = [927, 927], y = [15, 15]
+render x = [927, 927], y = [46, 46]
+render x = [983, 983], y = [8, 8]
+render x = [983, 983], y = [203, 203]
+render x = [983, 983], y = [103, 103]
+render x = [983, 983], y = [456, 456]
+render x = [983, 983], y = [65, 65]
+render x = [983, 983], y = [415, 415]
+render x = [951, 951], y = [306, 306]
+render x = [951, 951], y = [403, 403]
+render x = [953, 953], y = [606, 606]
+render x = [953, 953], y = [215, 215]
+render x = [953, 953], y = [115, 115]
+render x = [951, 951], y = [215, 215]
+render x = [951, 951], y = [115, 115]
+render x = [951, 951], y = [606, 606]
+render x = [951, 951], y = [506, 506]
+render x = [951, 951], y = [53, 53]
+=+=+=+=+= Iteration 71 =+=+=+=+=
+area_rough_count: 768
+render x = [953, 953], y = [403, 403]
+render x = [928, 928], y = [28, 28]
+render x = [928, 928], y = [15, 15]
+render x = [928, 928], y = [46, 46]
+render x = [984, 984], y = [8, 8]
+render x = [984, 984], y = [203, 203]
+render x = [984, 984], y = [103, 103]
+render x = [984, 984], y = [456, 456]
+render x = [984, 984], y = [65, 65]
+render x = [984, 984], y = [415, 415]
+render x = [954, 954], y = [215, 215]
+render x = [954, 954], y = [115, 115]
+render x = [952, 952], y = [215, 215]
+render x = [952, 952], y = [115, 115]
+render x = [952, 952], y = [606, 606]
+=+=+=+=+= Iteration 72 =+=+=+=+=
+area_rough_count: 768
+=+=+=+=+= Iteration 73 =+=+=+=+=
+area_rough_count: 704
+=+=+=+=+= Iteration 74 =+=+=+=+=
+area_rough_count: 768
+render x = [900, 900], y = [46, 46]
+render x = [900, 900], y = [28, 28]
+render x = [900, 900], y = [15, 15]
+=+=+=+=+= Iteration 75 =+=+=+=+=
+area_rough_count: 768
+render x = [1088, 1088], y = [201, 201]
+render x = [488, 488], y = [1, 1]
+render x = [488, 488], y = [0, 0]
+render x = [900, 900], y = [215, 215]
+render x = [900, 900], y = [115, 115]
+render x = [900, 900], y = [606, 606]
+render x = [900, 900], y = [506, 506]
+render x = [900, 900], y = [53, 53]
+render x = [900, 900], y = [306, 306]
+render x = [900, 900], y = [403, 403]
+=+=+=+=+= Iteration 76 =+=+=+=+=
+area_rough_count: 832
+render x = [921, 921], y = [28, 28]
+render x = [919, 919], y = [28, 28]
+=+=+=+=+= Iteration 77 =+=+=+=+=
+area_rough_count: 832
+=+=+=+=+= Iteration 78 =+=+=+=+=
+area_rough_count: 832
+render x = [942, 942], y = [53, 53]
+render x = [942, 942], y = [306, 306]
+render x = [942, 942], y = [403, 403]
+render x = [939, 939], y = [403, 403]
+=+=+=+=+= Iteration 79 =+=+=+=+=
+area_rough_count: 768
+render x = [940, 940], y = [53, 53]
+render x = [940, 940], y = [306, 306]
+render x = [940, 940], y = [403, 403]
+render x = [920, 920], y = [28, 28]
+render x = [938, 938], y = [53, 53]
+render x = [938, 938], y = [306, 306]
+render x = [941, 941], y = [53, 53]
+render x = [941, 941], y = [306, 306]
+render x = [941, 941], y = [403, 403]
+render x = [938, 938], y = [403, 403]
+render x = [920, 920], y = [15, 15]
+render x = [920, 920], y = [46, 46]
+render x = [976, 976], y = [8, 8]
+render x = [976, 976], y = [203, 203]
+render x = [976, 976], y = [103, 103]
+render x = [976, 976], y = [456, 456]
+render x = [976, 976], y = [65, 65]
+render x = [976, 976], y = [415, 415]
+render x = [1090, 1090], y = [28, 28]
+render x = [1090, 1090], y = [15, 15]
+render x = [1090, 1090], y = [46, 46]
+render x = [939, 939], y = [53, 53]
+render x = [939, 939], y = [306, 306]
+render x = [921, 921], y = [15, 15]
+render x = [921, 921], y = [46, 46]
+render x = [1089, 1089], y = [201, 201]
+render x = [977, 977], y = [8, 8]
+render x = [977, 977], y = [203, 203]
+render x = [977, 977], y = [103, 103]
+render x = [977, 977], y = [456, 456]
+render x = [489, 489], y = [1, 1]
+render x = [489, 489], y = [0, 0]
+render x = [977, 977], y = [65, 65]
+render x = [977, 977], y = [415, 415]
+render x = [901, 901], y = [215, 215]
+render x = [901, 901], y = [115, 115]
+render x = [901, 901], y = [606, 606]
+render x = [901, 901], y = [506, 506]
+render x = [901, 901], y = [53, 53]
+render x = [901, 901], y = [306, 306]
+render x = [901, 901], y = [403, 403]
+render x = [919, 919], y = [15, 15]
+render x = [919, 919], y = [46, 46]
+render x = [975, 975], y = [8, 8]
+render x = [975, 975], y = [203, 203]
+render x = [975, 975], y = [103, 103]
+render x = [975, 975], y = [456, 456]
+render x = [975, 975], y = [65, 65]
+render x = [975, 975], y = [415, 415]
+=+=+=+=+= Iteration 80 =+=+=+=+=
+area_rough_count: 768
+render x = [1088, 1088], y = [28, 28]
+render x = [1088, 1088], y = [15, 15]
+render x = [1088, 1088], y = [46, 46]
+render x = [1128, 1128], y = [201, 201]
+render x = [1128, 1128], y = [101, 101]
+render x = [1128, 1128], y = [26, 26]
+render x = [1091, 1091], y = [28, 28]
+render x = [1091, 1091], y = [15, 15]
+render x = [1091, 1091], y = [46, 46]
+=+=+=+=+= Iteration 81 =+=+=+=+=
+area_rough_count: 768
+render x = [1125, 1125], y = [201, 201]
+render x = [1125, 1125], y = [101, 101]
+render x = [1125, 1125], y = [26, 26]
+render x = [1127, 1127], y = [201, 201]
+render x = [1127, 1127], y = [101, 101]
+render x = [1127, 1127], y = [26, 26]
+render x = [1089, 1089], y = [28, 28]
+render x = [1089, 1089], y = [15, 15]
+render x = [1089, 1089], y = [46, 46]
+render x = [1129, 1129], y = [201, 201]
+render x = [1129, 1129], y = [101, 101]
+render x = [1129, 1129], y = [26, 26]
+render x = [1092, 1092], y = [28, 28]
+render x = [1092, 1092], y = [15, 15]
+render x = [1092, 1092], y = [46, 46]
+=+=+=+=+= Iteration 82 =+=+=+=+=
+area_rough_count: 768
+render x = [1133, 1133], y = [201, 201]
+render x = [1133, 1133], y = [101, 101]
+render x = [1133, 1133], y = [26, 26]
+render x = [1130, 1130], y = [201, 201]
+render x = [1130, 1130], y = [101, 101]
+render x = [1130, 1130], y = [26, 26]
+render x = [1132, 1132], y = [201, 201]
+render x = [1132, 1132], y = [101, 101]
+render x = [1132, 1132], y = [26, 26]
+render x = [1126, 1126], y = [201, 201]
+render x = [1126, 1126], y = [101, 101]
+render x = [1126, 1126], y = [26, 26]
+=+=+=+=+= Iteration 83 =+=+=+=+=
+area_rough_count: 768
+render x = [1131, 1131], y = [201, 201]
+render x = [1131, 1131], y = [101, 101]
+render x = [1131, 1131], y = [26, 26]
+render x = [1134, 1134], y = [201, 201]
+render x = [1134, 1134], y = [101, 101]
+render x = [1134, 1134], y = [26, 26]
+=+=+=+=+= Iteration 84 =+=+=+=+=
+area_rough_count: 704
+=+=+=+=+= Iteration 85 =+=+=+=+=
+area_rough_count: 768
+=+=+=+=+= Iteration 86 =+=+=+=+=
+area_rough_count: 704
+render x = [922, 922], y = [215, 215]
+render x = [922, 922], y = [115, 115]
+render x = [922, 922], y = [606, 606]
+render x = [1101, 1101], y = [201, 201]
+render x = [518, 518], y = [1, 1]
+render x = [518, 518], y = [0, 0]
+render x = [931, 931], y = [215, 215]
+render x = [1015, 1015], y = [203, 203]
+render x = [1015, 1015], y = [103, 103]
+render x = [511, 511], y = [1, 1]
+render x = [511, 511], y = [0, 0]
+render x = [923, 923], y = [215, 215]
+render x = [923, 923], y = [115, 115]
+render x = [923, 923], y = [606, 606]
+render x = [1102, 1102], y = [201, 201]
+=+=+=+=+= Iteration 87 =+=+=+=+=
+area_rough_count: 768
+render x = [908, 908], y = [46, 46]
+render x = [1035, 1035], y = [103, 103]
+render x = [1035, 1035], y = [456, 456]
+render x = [1035, 1035], y = [65, 65]
+render x = [1035, 1035], y = [415, 415]
+render x = [523, 523], y = [1, 1]
+render x = [523, 523], y = [0, 0]
+render x = [936, 936], y = [215, 215]
+render x = [1021, 1021], y = [203, 203]
+render x = [1021, 1021], y = [103, 103]
+=+=+=+=+= Iteration 88 =+=+=+=+=
+area_rough_count: 768
+render x = [1046, 1046], y = [65, 65]
+render x = [1046, 1046], y = [415, 415]
+render x = [1036, 1036], y = [103, 103]
+render x = [1036, 1036], y = [456, 456]
+render x = [1036, 1036], y = [65, 65]
+render x = [1036, 1036], y = [415, 415]
+render x = [524, 524], y = [1, 1]
+render x = [524, 524], y = [0, 0]
+render x = [937, 937], y = [215, 215]
+render x = [1022, 1022], y = [203, 203]
+render x = [1022, 1022], y = [103, 103]
+render x = [1022, 1022], y = [456, 456]
+render x = [1022, 1022], y = [65, 65]
+render x = [1022, 1022], y = [415, 415]
+render x = [1003, 1003], y = [8, 8]
+render x = [1003, 1003], y = [203, 203]
+render x = [1040, 1040], y = [103, 103]
+render x = [1040, 1040], y = [456, 456]
+render x = [1103, 1103], y = [201, 201]
+render x = [909, 909], y = [28, 28]
+render x = [909, 909], y = [15, 15]
+=+=+=+=+= Iteration 89 =+=+=+=+=
+area_rough_count: 768
+render x = [1048, 1048], y = [65, 65]
+render x = [1048, 1048], y = [415, 415]
+render x = [917, 917], y = [403, 403]
+render x = [1104, 1104], y = [201, 201]
+render x = [1047, 1047], y = [65, 65]
+render x = [1047, 1047], y = [415, 415]
+=+=+=+=+= Iteration 90 =+=+=+=+=
+area_rough_count: 768
+render x = [1007, 1007], y = [8, 8]
+render x = [1049, 1049], y = [65, 65]
+render x = [1049, 1049], y = [415, 415]
+render x = [918, 918], y = [403, 403]
+render x = [1007, 1007], y = [203, 203]
+=+=+=+=+= Iteration 91 =+=+=+=+=
+area_rough_count: 768
+render x = [1008, 1008], y = [8, 8]
+render x = [1008, 1008], y = [203, 203]
+=+=+=+=+= Iteration 92 =+=+=+=+=
+area_rough_count: 704
+render x = [1090, 1090], y = [201, 201]
+render x = [901, 901], y = [46, 46]
+render x = [490, 490], y = [1, 1]
+render x = [490, 490], y = [0, 0]
+render x = [902, 902], y = [215, 215]
+render x = [902, 902], y = [115, 115]
+render x = [902, 902], y = [606, 606]
+render x = [902, 902], y = [506, 506]
+render x = [902, 902], y = [53, 53]
+render x = [902, 902], y = [306, 306]
+render x = [902, 902], y = [403, 403]
+render x = [901, 901], y = [28, 28]
+render x = [901, 901], y = [15, 15]
+=+=+=+=+= Iteration 93 =+=+=+=+=
+area_rough_count: 768
+render x = [922, 922], y = [28, 28]
+render x = [922, 922], y = [15, 15]
+render x = [922, 922], y = [46, 46]
+render x = [978, 978], y = [8, 8]
+render x = [978, 978], y = [203, 203]
+render x = [978, 978], y = [103, 103]
+render x = [978, 978], y = [456, 456]
+render x = [978, 978], y = [65, 65]
+render x = [978, 978], y = [415, 415]
+=+=+=+=+= Iteration 94 =+=+=+=+=
+area_rough_count: 832
+render x = [904, 904], y = [15, 15]
+=+=+=+=+= Iteration 95 =+=+=+=+=
+area_rough_count: 832
+=+=+=+=+= Iteration 96 =+=+=+=+=
+area_rough_count: 768
+render x = [979, 979], y = [203, 203]
+render x = [979, 979], y = [103, 103]
+render x = [979, 979], y = [456, 456]
+render x = [979, 979], y = [65, 65]
+render x = [979, 979], y = [415, 415]
+render x = [1096, 1096], y = [15, 15]
+render x = [1096, 1096], y = [46, 46]
+render x = [1097, 1097], y = [15, 15]
+render x = [1097, 1097], y = [46, 46]
+render x = [923, 923], y = [28, 28]
+render x = [923, 923], y = [15, 15]
+render x = [923, 923], y = [46, 46]
+render x = [979, 979], y = [8, 8]
+=+=+=+=+= Iteration 97 =+=+=+=+=
+area_rough_count: 768
+render x = [946, 946], y = [53, 53]
+render x = [946, 946], y = [306, 306]
+render x = [946, 946], y = [403, 403]
+render x = [945, 945], y = [506, 506]
+render x = [945, 945], y = [53, 53]
+render x = [945, 945], y = [306, 306]
+render x = [945, 945], y = [403, 403]
+render x = [943, 943], y = [506, 506]
+render x = [946, 946], y = [506, 506]
+render x = [1096, 1096], y = [28, 28]
+render x = [943, 943], y = [53, 53]
+render x = [943, 943], y = [306, 306]
+render x = [943, 943], y = [403, 403]
+=+=+=+=+= Iteration 98 =+=+=+=+=
+area_rough_count: 768
+render x = [944, 944], y = [506, 506]
+render x = [947, 947], y = [506, 506]
+render x = [947, 947], y = [53, 53]
+render x = [947, 947], y = [306, 306]
+render x = [947, 947], y = [403, 403]
+render x = [1097, 1097], y = [28, 28]
+render x = [944, 944], y = [53, 53]
+render x = [944, 944], y = [306, 306]
+render x = [944, 944], y = [403, 403]
+render x = [1140, 1140], y = [201, 201]
+render x = [1140, 1140], y = [101, 101]
+render x = [1140, 1140], y = [26, 26]
+=+=+=+=+= Iteration 99 =+=+=+=+=
+area_rough_count: 768
+render x = [1142, 1142], y = [201, 201]
+render x = [1142, 1142], y = [101, 101]
+render x = [1142, 1142], y = [26, 26]
+render x = [1141, 1141], y = [201, 201]
+render x = [1141, 1141], y = [101, 101]
+render x = [1141, 1141], y = [26, 26]
+=+=+=+=+= Iteration 100 =+=+=+=+=
+area_rough_count: 832
+render x = [968, 968], y = [115, 115]
+render x = [1184, 1184], y = [201, 201]
+render x = [1184, 1184], y = [101, 101]
+render x = [1184, 1184], y = [26, 26]
+render x = [1193, 1193], y = [201, 201]
+render x = [1193, 1193], y = [101, 101]
+render x = [1193, 1193], y = [26, 26]
+render x = [968, 968], y = [215, 215]
+=+=+=+=+= Iteration 101 =+=+=+=+=
+area_rough_count: 832
+=+=+=+=+= Iteration 102 =+=+=+=+=
+area_rough_count: 832
+render x = [1199, 1199], y = [26, 26]
+render x = [974, 974], y = [115, 115]
+=+=+=+=+= Iteration 103 =+=+=+=+=
+area_rough_count: 768
+render x = [1194, 1194], y = [201, 201]
+render x = [1182, 1182], y = [201, 201]
+render x = [1182, 1182], y = [101, 101]
+render x = [971, 971], y = [115, 115]
+render x = [1143, 1143], y = [201, 201]
+render x = [1143, 1143], y = [101, 101]
+render x = [1143, 1143], y = [26, 26]
+render x = [1194, 1194], y = [101, 101]
+render x = [1194, 1194], y = [26, 26]
+render x = [969, 969], y = [215, 215]
+render x = [969, 969], y = [115, 115]
+render x = [1196, 1196], y = [101, 101]
+render x = [1196, 1196], y = [26, 26]
+render x = [1189, 1189], y = [201, 201]
+render x = [1189, 1189], y = [101, 101]
+render x = [1189, 1189], y = [26, 26]
+render x = [1187, 1187], y = [101, 101]
+render x = [1187, 1187], y = [26, 26]
+render x = [971, 971], y = [215, 215]
+render x = [1198, 1198], y = [201, 201]
+render x = [1198, 1198], y = [101, 101]
+render x = [1198, 1198], y = [26, 26]
+render x = [973, 973], y = [115, 115]
+render x = [1196, 1196], y = [201, 201]
+render x = [1182, 1182], y = [26, 26]
+render x = [1191, 1191], y = [201, 201]
+render x = [1190, 1190], y = [201, 201]
+render x = [1190, 1190], y = [101, 101]
+render x = [1191, 1191], y = [101, 101]
+render x = [1191, 1191], y = [26, 26]
+render x = [966, 966], y = [115, 115]
+render x = [1187, 1187], y = [201, 201]
+render x = [966, 966], y = [215, 215]
+render x = [1185, 1185], y = [201, 201]
+render x = [1185, 1185], y = [101, 101]
+render x = [1185, 1185], y = [26, 26]
+render x = [1190, 1190], y = [26, 26]
+render x = [1199, 1199], y = [201, 201]
+render x = [1199, 1199], y = [101, 101]
+=+=+=+=+= Iteration 104 =+=+=+=+=
+area_rough_count: 832
+render x = [1195, 1195], y = [101, 101]
+render x = [1195, 1195], y = [26, 26]
+render x = [970, 970], y = [215, 215]
+render x = [970, 970], y = [115, 115]
+render x = [1197, 1197], y = [101, 101]
+render x = [1197, 1197], y = [26, 26]
+=+=+=+=+= Iteration 105 =+=+=+=+=
+area_rough_count: 768
+render x = [972, 972], y = [215, 215]
+render x = [967, 967], y = [115, 115]
+render x = [1188, 1188], y = [201, 201]
+render x = [1183, 1183], y = [201, 201]
+render x = [973, 973], y = [215, 215]
+render x = [1188, 1188], y = [101, 101]
+render x = [1188, 1188], y = [26, 26]
+render x = [1197, 1197], y = [201, 201]
+render x = [1183, 1183], y = [26, 26]
+render x = [1192, 1192], y = [201, 201]
+render x = [1192, 1192], y = [101, 101]
+render x = [1192, 1192], y = [26, 26]
+render x = [967, 967], y = [215, 215]
+render x = [1186, 1186], y = [201, 201]
+render x = [1186, 1186], y = [101, 101]
+render x = [1186, 1186], y = [26, 26]
+render x = [1195, 1195], y = [201, 201]
+render x = [1183, 1183], y = [101, 101]
+render x = [972, 972], y = [115, 115]
+=+=+=+=+= Iteration 106 =+=+=+=+=
+area_rough_count: 768
+render x = [974, 974], y = [215, 215]
+=+=+=+=+= Iteration 107 =+=+=+=+=
+area_rough_count: 704
+render x = [903, 903], y = [46, 46]
+render x = [903, 903], y = [28, 28]
+render x = [903, 903], y = [15, 15]
+render x = [904, 904], y = [46, 46]
+render x = [904, 904], y = [28, 28]
+=+=+=+=+= Iteration 108 =+=+=+=+=
+area_rough_count: 768
+render x = [1096, 1096], y = [201, 201]
+render x = [496, 496], y = [1, 1]
+render x = [496, 496], y = [0, 0]
+render x = [908, 908], y = [215, 215]
+render x = [908, 908], y = [115, 115]
+render x = [908, 908], y = [606, 606]
+render x = [908, 908], y = [506, 506]
+render x = [908, 908], y = [53, 53]
+render x = [908, 908], y = [306, 306]
+render x = [908, 908], y = [403, 403]
+=+=+=+=+= Iteration 109 =+=+=+=+=
+area_rough_count: 832
+render x = [934, 934], y = [28, 28]
+render x = [934, 934], y = [15, 15]
+render x = [934, 934], y = [46, 46]
+render x = [990, 990], y = [8, 8]
+render x = [990, 990], y = [203, 203]
+render x = [990, 990], y = [103, 103]
+render x = [990, 990], y = [456, 456]
+render x = [990, 990], y = [65, 65]
+render x = [990, 990], y = [415, 415]
+render x = [1093, 1093], y = [15, 15]
+render x = [1093, 1093], y = [201, 201]
+=+=+=+=+= Iteration 110 =+=+=+=+=
+area_rough_count: 832
+render x = [929, 929], y = [28, 28]
+render x = [929, 929], y = [15, 15]
+render x = [929, 929], y = [46, 46]
+render x = [985, 985], y = [8, 8]
+render x = [985, 985], y = [203, 203]
+render x = [935, 935], y = [28, 28]
+render x = [935, 935], y = [15, 15]
+render x = [935, 935], y = [46, 46]
+render x = [991, 991], y = [8, 8]
+render x = [991, 991], y = [203, 203]
+render x = [991, 991], y = [103, 103]
+render x = [991, 991], y = [456, 456]
+render x = [991, 991], y = [65, 65]
+render x = [991, 991], y = [415, 415]
+render x = [1094, 1094], y = [15, 15]
+render x = [1094, 1094], y = [46, 46]
+render x = [1137, 1137], y = [201, 201]
+render x = [1137, 1137], y = [101, 101]
+=+=+=+=+= Iteration 111 =+=+=+=+=
+area_rough_count: 832
+render x = [986, 986], y = [8, 8]
+render x = [986, 986], y = [203, 203]
+render x = [957, 957], y = [306, 306]
+render x = [957, 957], y = [403, 403]
+render x = [959, 959], y = [306, 306]
+render x = [959, 959], y = [403, 403]
+render x = [930, 930], y = [28, 28]
+render x = [930, 930], y = [15, 15]
+render x = [930, 930], y = [46, 46]
+=+=+=+=+= Iteration 112 =+=+=+=+=
+area_rough_count: 832
+render x = [958, 958], y = [306, 306]
+render x = [958, 958], y = [403, 403]
+=+=+=+=+= Iteration 113 =+=+=+=+=
+area_rough_count: 832
+render x = [1170, 1170], y = [26, 26]
+render x = [1168, 1168], y = [26, 26]
+render x = [1171, 1171], y = [26, 26]
+=+=+=+=+= Iteration 114 =+=+=+=+=
+area_rough_count: 832
+render x = [1169, 1169], y = [26, 26]
+render x = [1172, 1172], y = [26, 26]
+=+=+=+=+= Iteration 115 =+=+=+=+=
+area_rough_count: 768
+=+=+=+=+= Iteration 116 =+=+=+=+=
+area_rough_count: 896
+render x = [1095, 1095], y = [28, 28]
+render x = [1097, 1097], y = [201, 201]
+render x = [497, 497], y = [1, 1]
+render x = [497, 497], y = [0, 0]
+render x = [909, 909], y = [215, 215]
+render x = [909, 909], y = [115, 115]
+render x = [909, 909], y = [606, 606]
+render x = [909, 909], y = [506, 506]
+render x = [909, 909], y = [53, 53]
+render x = [909, 909], y = [306, 306]
+render x = [909, 909], y = [403, 403]
+render x = [1095, 1095], y = [15, 15]
+render x = [1095, 1095], y = [46, 46]
+=+=+=+=+= Iteration 117 =+=+=+=+=
+area_rough_count: 896
+=+=+=+=+= Iteration 118 =+=+=+=+=
+area_rough_count: 832
+render x = [1095, 1095], y = [201, 201]
+render x = [495, 495], y = [1, 1]
+render x = [495, 495], y = [0, 0]
+render x = [907, 907], y = [215, 215]
+render x = [907, 907], y = [115, 115]
+render x = [907, 907], y = [606, 606]
+render x = [907, 907], y = [506, 506]
+render x = [907, 907], y = [53, 53]
+render x = [907, 907], y = [306, 306]
+render x = [907, 907], y = [403, 403]
+render x = [1138, 1138], y = [26, 26]
+render x = [936, 936], y = [28, 28]
+render x = [936, 936], y = [15, 15]
+render x = [936, 936], y = [46, 46]
+render x = [992, 992], y = [8, 8]
+render x = [992, 992], y = [203, 203]
+render x = [992, 992], y = [103, 103]
+render x = [992, 992], y = [456, 456]
+render x = [992, 992], y = [65, 65]
+render x = [992, 992], y = [415, 415]
+render x = [1139, 1139], y = [26, 26]
+render x = [937, 937], y = [28, 28]
+render x = [937, 937], y = [15, 15]
+render x = [937, 937], y = [46, 46]
+render x = [993, 993], y = [8, 8]
+render x = [993, 993], y = [203, 203]
+render x = [993, 993], y = [103, 103]
+render x = [993, 993], y = [456, 456]
+render x = [993, 993], y = [65, 65]
+render x = [993, 993], y = [415, 415]
+=+=+=+=+= Iteration 119 =+=+=+=+=
+area_rough_count: 832
+render x = [932, 932], y = [28, 28]
+render x = [932, 932], y = [15, 15]
+render x = [932, 932], y = [46, 46]
+render x = [988, 988], y = [8, 8]
+render x = [988, 988], y = [203, 203]
+render x = [988, 988], y = [103, 103]
+render x = [988, 988], y = [456, 456]
+render x = [971, 971], y = [403, 403]
+render x = [964, 964], y = [215, 215]
+render x = [964, 964], y = [115, 115]
+render x = [973, 973], y = [606, 606]
+render x = [973, 973], y = [506, 506]
+render x = [973, 973], y = [53, 53]
+render x = [973, 973], y = [306, 306]
+render x = [973, 973], y = [403, 403]
+render x = [1138, 1138], y = [201, 201]
+render x = [1138, 1138], y = [101, 101]
+render x = [988, 988], y = [65, 65]
+render x = [988, 988], y = [415, 415]
+render x = [962, 962], y = [215, 215]
+render x = [962, 962], y = [115, 115]
+render x = [971, 971], y = [606, 606]
+render x = [971, 971], y = [506, 506]
+render x = [971, 971], y = [53, 53]
+render x = [971, 971], y = [306, 306]
+=+=+=+=+= Iteration 120 =+=+=+=+=
+area_rough_count: 832
+render x = [972, 972], y = [403, 403]
+render x = [965, 965], y = [215, 215]
+render x = [965, 965], y = [115, 115]
+render x = [974, 974], y = [606, 606]
+render x = [974, 974], y = [506, 506]
+render x = [974, 974], y = [53, 53]
+render x = [974, 974], y = [306, 306]
+render x = [974, 974], y = [403, 403]
+render x = [1139, 1139], y = [201, 201]
+render x = [962, 962], y = [506, 506]
+render x = [962, 962], y = [53, 53]
+render x = [962, 962], y = [306, 306]
+render x = [962, 962], y = [403, 403]
+render x = [1139, 1139], y = [101, 101]
+=+=+=+=+= Iteration 121 =+=+=+=+=
+area_rough_count: 832
+render x = [964, 964], y = [506, 506]
+render x = [964, 964], y = [53, 53]
+render x = [964, 964], y = [306, 306]
+render x = [963, 963], y = [506, 506]
+render x = [963, 963], y = [53, 53]
+render x = [963, 963], y = [306, 306]
+render x = [963, 963], y = [403, 403]
+=+=+=+=+= Iteration 122 =+=+=+=+=
+area_rough_count: 832
+render x = [1176, 1176], y = [26, 26]
+render x = [1176, 1176], y = [201, 201]
+render x = [1173, 1173], y = [26, 26]
+render x = [1173, 1173], y = [201, 201]
+render x = [1173, 1173], y = [101, 101]
+render x = [1178, 1178], y = [26, 26]
+render x = [1176, 1176], y = [101, 101]
+render x = [1175, 1175], y = [26, 26]
+render x = [1175, 1175], y = [201, 201]
+render x = [1175, 1175], y = [101, 101]
+render x = [965, 965], y = [506, 506]
+render x = [965, 965], y = [53, 53]
+render x = [965, 965], y = [306, 306]
+=+=+=+=+= Iteration 123 =+=+=+=+=
+area_rough_count: 832
+render x = [1177, 1177], y = [201, 201]
+render x = [1177, 1177], y = [101, 101]
+render x = [1174, 1174], y = [26, 26]
+render x = [1174, 1174], y = [201, 201]
+render x = [1174, 1174], y = [101, 101]
+render x = [1179, 1179], y = [26, 26]
+render x = [1177, 1177], y = [26, 26]
+render x = [1180, 1180], y = [26, 26]
+=+=+=+=+= Iteration 124 =+=+=+=+=
+area_rough_count: 832
+render x = [1181, 1181], y = [26, 26]
+=+=+=+=+= Iteration 125 =+=+=+=+=
+area_rough_count: 768
+render x = [972, 972], y = [53, 53]
+render x = [972, 972], y = [306, 306]
+render x = [933, 933], y = [28, 28]
+render x = [933, 933], y = [15, 15]
+render x = [933, 933], y = [46, 46]
+render x = [989, 989], y = [8, 8]
+render x = [989, 989], y = [203, 203]
+render x = [989, 989], y = [103, 103]
+render x = [989, 989], y = [456, 456]
+render x = [989, 989], y = [65, 65]
+render x = [989, 989], y = [415, 415]
+render x = [963, 963], y = [215, 215]
+render x = [963, 963], y = [115, 115]
+render x = [972, 972], y = [606, 606]
+render x = [972, 972], y = [506, 506]
+=+=+=+=+= Iteration 126 =+=+=+=+=
+area_rough_count: 768
+render x = [986, 986], y = [103, 103]
+render x = [986, 986], y = [456, 456]
+render x = [964, 964], y = [403, 403]
+=+=+=+=+= Iteration 127 =+=+=+=+=
+area_rough_count: 768
+render x = [1178, 1178], y = [201, 201]
+render x = [1178, 1178], y = [101, 101]
+render x = [960, 960], y = [606, 606]
+render x = [960, 960], y = [506, 506]
+render x = [960, 960], y = [53, 53]
+render x = [965, 965], y = [403, 403]
+=+=+=+=+= Iteration 128 =+=+=+=+=
+area_rough_count: 768
+render x = [1179, 1179], y = [201, 201]
+render x = [961, 961], y = [606, 606]
+render x = [961, 961], y = [506, 506]
+render x = [1179, 1179], y = [101, 101]
+render x = [1180, 1180], y = [201, 201]
+render x = [1180, 1180], y = [101, 101]
+render x = [961, 961], y = [53, 53]
+=+=+=+=+= Iteration 129 =+=+=+=+=
+area_rough_count: 768
+render x = [1181, 1181], y = [201, 201]
+render x = [1181, 1181], y = [101, 101]
+=+=+=+=+= Iteration 130 =+=+=+=+=
+area_rough_count: 704
+=+=+=+=+= Iteration 131 =+=+=+=+=
+area_rough_count: 832
+=+=+=+=+= Iteration 132 =+=+=+=+=
+area_rough_count: 832
+=+=+=+=+= Iteration 133 =+=+=+=+=
+area_rough_count: 896
+=+=+=+=+= Iteration 134 =+=+=+=+=
+area_rough_count: 896
+=+=+=+=+= Iteration 135 =+=+=+=+=
+area_rough_count: 896
+=+=+=+=+= Iteration 136 =+=+=+=+=
+area_rough_count: 896
+=+=+=+=+= Iteration 137 =+=+=+=+=
+area_rough_count: 896
+=+=+=+=+= Iteration 138 =+=+=+=+=
+area_rough_count: 960
+render x = [319, 319], y = [1, 1]
+=+=+=+=+= Iteration 139 =+=+=+=+=
+area_rough_count: 960
+render x = [1088, 1088], y = [8, 8]
+render x = [1088, 1088], y = [215, 215]
+render x = [1088, 1088], y = [115, 115]
+render x = [638, 638], y = [27, 27]
+=+=+=+=+= Iteration 140 =+=+=+=+=
+area_rough_count: 960
+render x = [399, 399], y = [0, 0]
+render x = [399, 399], y = [1, 1]
+render x = [401, 401], y = [0, 0]
+render x = [1107, 1107], y = [8, 8]
+render x = [1107, 1107], y = [215, 215]
+render x = [1107, 1107], y = [115, 115]
+render x = [1109, 1109], y = [8, 8]
+render x = [1109, 1109], y = [215, 215]
+render x = [1109, 1109], y = [115, 115]
+render x = [1089, 1089], y = [8, 8]
+render x = [1089, 1089], y = [215, 215]
+render x = [1089, 1089], y = [115, 115]
+render x = [639, 639], y = [27, 27]
+render x = [790, 790], y = [46, 46]
+render x = [788, 788], y = [46, 46]
+render x = [788, 788], y = [201, 201]
+=+=+=+=+= Iteration 141 =+=+=+=+=
+area_rough_count: 960
+render x = [798, 798], y = [26, 26]
+render x = [798, 798], y = [101, 101]
+render x = [798, 798], y = [65, 65]
+render x = [798, 798], y = [415, 415]
+render x = [800, 800], y = [101, 101]
+render x = [400, 400], y = [0, 0]
+render x = [800, 800], y = [65, 65]
+render x = [800, 800], y = [415, 415]
+render x = [1108, 1108], y = [8, 8]
+render x = [798, 798], y = [7, 7]
+render x = [1108, 1108], y = [215, 215]
+render x = [1108, 1108], y = [115, 115]
+render x = [789, 789], y = [46, 46]
+render x = [789, 789], y = [201, 201]
+render x = [800, 800], y = [26, 26]
+render x = [798, 798], y = [52, 52]
+render x = [798, 798], y = [402, 402]
+render x = [798, 798], y = [202, 202]
+render x = [798, 798], y = [102, 102]
+render x = [798, 798], y = [27, 27]
+render x = [801, 801], y = [65, 65]
+render x = [801, 801], y = [415, 415]
+render x = [801, 801], y = [101, 101]
+render x = [800, 800], y = [7, 7]
+render x = [800, 800], y = [52, 52]
+render x = [800, 800], y = [402, 402]
+render x = [800, 800], y = [202, 202]
+render x = [800, 800], y = [102, 102]
+render x = [800, 800], y = [27, 27]
+render x = [400, 400], y = [1, 1]
+=+=+=+=+= Iteration 142 =+=+=+=+=
+area_rough_count: 960
+render x = [799, 799], y = [7, 7]
+render x = [799, 799], y = [52, 52]
+render x = [799, 799], y = [402, 402]
+render x = [799, 799], y = [202, 202]
+render x = [799, 799], y = [102, 102]
+render x = [799, 799], y = [27, 27]
+render x = [802, 802], y = [65, 65]
+render x = [802, 802], y = [415, 415]
+render x = [802, 802], y = [101, 101]
+render x = [799, 799], y = [26, 26]
+render x = [799, 799], y = [101, 101]
+render x = [799, 799], y = [65, 65]
+render x = [799, 799], y = [415, 415]
+=+=+=+=+= Iteration 143 =+=+=+=+=
+area_rough_count: 896
+render x = [321, 321], y = [1, 1]
+render x = [790, 790], y = [201, 201]
+render x = [401, 401], y = [1, 1]
+=+=+=+=+= Iteration 144 =+=+=+=+=
+area_rough_count: 960
+render x = [801, 801], y = [26, 26]
+render x = [801, 801], y = [7, 7]
+render x = [801, 801], y = [52, 52]
+render x = [801, 801], y = [402, 402]
+render x = [801, 801], y = [202, 202]
+render x = [801, 801], y = [102, 102]
+render x = [801, 801], y = [27, 27]
+render x = [1090, 1090], y = [8, 8]
+render x = [1090, 1090], y = [215, 215]
+render x = [1090, 1090], y = [115, 115]
+render x = [640, 640], y = [27, 27]
+render x = [320, 320], y = [1, 1]
+render x = [1091, 1091], y = [8, 8]
+render x = [1091, 1091], y = [215, 215]
+render x = [1091, 1091], y = [115, 115]
+render x = [641, 641], y = [27, 27]
+=+=+=+=+= Iteration 145 =+=+=+=+=
+area_rough_count: 960
+render x = [402, 402], y = [0, 0]
+render x = [402, 402], y = [1, 1]
+render x = [1112, 1112], y = [8, 8]
+render x = [1112, 1112], y = [215, 215]
+render x = [1112, 1112], y = [115, 115]
+render x = [1110, 1110], y = [8, 8]
+render x = [1110, 1110], y = [215, 215]
+render x = [1110, 1110], y = [115, 115]
+render x = [791, 791], y = [46, 46]
+render x = [791, 791], y = [201, 201]
+=+=+=+=+= Iteration 146 =+=+=+=+=
+area_rough_count: 960
+render x = [803, 803], y = [46, 46]
+render x = [1111, 1111], y = [8, 8]
+render x = [1111, 1111], y = [215, 215]
+render x = [793, 793], y = [52, 52]
+render x = [793, 793], y = [402, 402]
+render x = [1111, 1111], y = [115, 115]
+render x = [792, 792], y = [46, 46]
+render x = [793, 793], y = [202, 202]
+render x = [803, 803], y = [65, 65]
+render x = [803, 803], y = [415, 415]
+render x = [803, 803], y = [7, 7]
+render x = [803, 803], y = [52, 52]
+render x = [803, 803], y = [402, 402]
+render x = [803, 803], y = [202, 202]
+render x = [803, 803], y = [102, 102]
+render x = [803, 803], y = [27, 27]
+render x = [803, 803], y = [201, 201]
+render x = [803, 803], y = [101, 101]
+render x = [803, 803], y = [26, 26]
+=+=+=+=+= Iteration 147 =+=+=+=+=
+area_rough_count: 960
+render x = [794, 794], y = [26, 26]
+render x = [794, 794], y = [7, 7]
+render x = [805, 805], y = [46, 46]
+render x = [805, 805], y = [201, 201]
+render x = [805, 805], y = [101, 101]
+render x = [804, 804], y = [46, 46]
+render x = [804, 804], y = [201, 201]
+render x = [804, 804], y = [101, 101]
+render x = [794, 794], y = [52, 52]
+render x = [794, 794], y = [402, 402]
+render x = [794, 794], y = [202, 202]
+render x = [804, 804], y = [26, 26]
+render x = [804, 804], y = [65, 65]
+render x = [804, 804], y = [415, 415]
+render x = [804, 804], y = [7, 7]
+render x = [804, 804], y = [52, 52]
+render x = [804, 804], y = [402, 402]
+render x = [804, 804], y = [202, 202]
+render x = [804, 804], y = [102, 102]
+render x = [804, 804], y = [27, 27]
+render x = [794, 794], y = [46, 46]
+render x = [794, 794], y = [201, 201]
+=+=+=+=+= Iteration 148 =+=+=+=+=
+area_rough_count: 960
+render x = [806, 806], y = [46, 46]
+render x = [806, 806], y = [201, 201]
+render x = [806, 806], y = [101, 101]
+=+=+=+=+= Iteration 149 =+=+=+=+=
+area_rough_count: 896
+render x = [323, 323], y = [1, 1]
+render x = [795, 795], y = [7, 7]
+render x = [793, 793], y = [46, 46]
+render x = [793, 793], y = [201, 201]
+render x = [793, 793], y = [26, 26]
+render x = [793, 793], y = [7, 7]
+render x = [795, 795], y = [52, 52]
+render x = [795, 795], y = [402, 402]
+render x = [795, 795], y = [202, 202]
+render x = [403, 403], y = [0, 0]
+render x = [792, 792], y = [201, 201]
+render x = [403, 403], y = [1, 1]
+render x = [1113, 1113], y = [8, 8]
+render x = [1113, 1113], y = [215, 215]
+render x = [1113, 1113], y = [115, 115]
+render x = [795, 795], y = [46, 46]
+render x = [795, 795], y = [201, 201]
+render x = [795, 795], y = [26, 26]
+=+=+=+=+= Iteration 150 =+=+=+=+=
+area_rough_count: 960
+render x = [1092, 1092], y = [215, 215]
+render x = [1092, 1092], y = [115, 115]
+render x = [642, 642], y = [27, 27]
+render x = [802, 802], y = [26, 26]
+render x = [802, 802], y = [7, 7]
+render x = [802, 802], y = [52, 52]
+render x = [802, 802], y = [402, 402]
+render x = [802, 802], y = [202, 202]
+render x = [802, 802], y = [102, 102]
+render x = [802, 802], y = [27, 27]
+=+=+=+=+= Iteration 151 =+=+=+=+=
+area_rough_count: 960
+=+=+=+=+= Iteration 152 =+=+=+=+=
+area_rough_count: 896
+render x = [797, 797], y = [26, 26]
+render x = [797, 797], y = [7, 7]
+render x = [797, 797], y = [52, 52]
+render x = [797, 797], y = [402, 402]
+render x = [797, 797], y = [202, 202]
+render x = [1092, 1092], y = [8, 8]
+render x = [805, 805], y = [102, 102]
+render x = [805, 805], y = [27, 27]
+render x = [805, 805], y = [65, 65]
+render x = [805, 805], y = [415, 415]
+render x = [805, 805], y = [26, 26]
+render x = [805, 805], y = [7, 7]
+render x = [805, 805], y = [52, 52]
+render x = [805, 805], y = [402, 402]
+render x = [805, 805], y = [202, 202]
+render x = [796, 796], y = [46, 46]
+render x = [796, 796], y = [201, 201]
+render x = [796, 796], y = [26, 26]
+render x = [796, 796], y = [7, 7]
+render x = [796, 796], y = [52, 52]
+render x = [796, 796], y = [402, 402]
+render x = [796, 796], y = [202, 202]
+render x = [797, 797], y = [46, 46]
+render x = [797, 797], y = [201, 201]
+render x = [1096, 1096], y = [8, 8]
+render x = [1096, 1096], y = [215, 215]
+render x = [1096, 1096], y = [115, 115]
+render x = [646, 646], y = [27, 27]
+=+=+=+=+= Iteration 153 =+=+=+=+=
+area_rough_count: 896
+render x = [1121, 1121], y = [8, 8]
+render x = [1121, 1121], y = [215, 215]
+render x = [1121, 1121], y = [115, 115]
+render x = [806, 806], y = [65, 65]
+render x = [806, 806], y = [415, 415]
+render x = [806, 806], y = [26, 26]
+render x = [806, 806], y = [7, 7]
+render x = [806, 806], y = [52, 52]
+render x = [806, 806], y = [402, 402]
+render x = [806, 806], y = [202, 202]
+render x = [806, 806], y = [102, 102]
+render x = [806, 806], y = [27, 27]
+render x = [1114, 1114], y = [8, 8]
+render x = [1097, 1097], y = [8, 8]
+render x = [1097, 1097], y = [215, 215]
+render x = [1097, 1097], y = [115, 115]
+render x = [647, 647], y = [27, 27]
+render x = [1114, 1114], y = [215, 215]
+render x = [1114, 1114], y = [115, 115]
+=+=+=+=+= Iteration 154 =+=+=+=+=
+area_rough_count: 896
+render x = [1123, 1123], y = [8, 8]
+render x = [1123, 1123], y = [215, 215]
+render x = [1123, 1123], y = [115, 115]
+render x = [1115, 1115], y = [8, 8]
+render x = [1115, 1115], y = [215, 215]
+render x = [1115, 1115], y = [115, 115]
+render x = [1122, 1122], y = [8, 8]
+render x = [1122, 1122], y = [215, 215]
+render x = [1122, 1122], y = [115, 115]
+=+=+=+=+= Iteration 155 =+=+=+=+=
+area_rough_count: 896
+render x = [1124, 1124], y = [8, 8]
+render x = [1124, 1124], y = [215, 215]
+render x = [1124, 1124], y = [115, 115]
+=+=+=+=+= Iteration 156 =+=+=+=+=
+area_rough_count: 832
+render x = [322, 322], y = [1, 1]
+=+=+=+=+= Iteration 157 =+=+=+=+=
+area_rough_count: 896
+=+=+=+=+= Iteration 158 =+=+=+=+=
+area_rough_count: 1024
+=+=+=+=+= Iteration 159 =+=+=+=+=
+area_rough_count: 1024
+=+=+=+=+= Iteration 160 =+=+=+=+=
+area_rough_count: 960
+render x = [1095, 1095], y = [8, 8]
+render x = [1095, 1095], y = [215, 215]
+render x = [1095, 1095], y = [115, 115]
+render x = [645, 645], y = [27, 27]
+=+=+=+=+= Iteration 161 =+=+=+=+=
+area_rough_count: 960
+render x = [791, 791], y = [26, 26]
+render x = [791, 791], y = [7, 7]
+render x = [791, 791], y = [52, 52]
+=+=+=+=+= Iteration 162 =+=+=+=+=
+area_rough_count: 1024
+render x = [792, 792], y = [26, 26]
+render x = [792, 792], y = [7, 7]
+render x = [792, 792], y = [52, 52]
+render x = [792, 792], y = [402, 402]
+render x = [792, 792], y = [202, 202]
+render x = [792, 792], y = [102, 102]
+render x = [792, 792], y = [101, 101]
+render x = [337, 337], y = [1, 1]
+render x = [797, 797], y = [102, 102]
+render x = [797, 797], y = [101, 101]
+render x = [1120, 1120], y = [8, 8]
+render x = [1120, 1120], y = [215, 215]
+render x = [1120, 1120], y = [115, 115]
+render x = [802, 802], y = [46, 46]
+render x = [802, 802], y = [201, 201]
+render x = [809, 809], y = [27, 27]
+render x = [811, 811], y = [27, 27]
+=+=+=+=+= Iteration 163 =+=+=+=+=
+area_rough_count: 1024
+render x = [805, 805], y = [8, 8]
+render x = [805, 805], y = [215, 215]
+render x = [673, 673], y = [27, 27]
+=+=+=+=+= Iteration 164 =+=+=+=+=
+area_rough_count: 1024
+render x = [806, 806], y = [8, 8]
+render x = [806, 806], y = [215, 215]
+render x = [674, 674], y = [27, 27]
+render x = [821, 821], y = [102, 102]
+render x = [816, 816], y = [8, 8]
+render x = [821, 821], y = [8, 8]
+render x = [819, 819], y = [8, 8]
+render x = [821, 821], y = [215, 215]
+render x = [934, 934], y = [415, 415]
+render x = [934, 934], y = [8, 8]
+render x = [821, 821], y = [402, 402]
+render x = [821, 821], y = [202, 202]
+render x = [818, 818], y = [8, 8]
+=+=+=+=+= Iteration 165 =+=+=+=+=
+area_rough_count: 1024
+render x = [823, 823], y = [8, 8]
+render x = [823, 823], y = [215, 215]
+render x = [817, 817], y = [8, 8]
+render x = [936, 936], y = [415, 415]
+render x = [936, 936], y = [8, 8]
+render x = [823, 823], y = [402, 402]
+render x = [822, 822], y = [8, 8]
+render x = [823, 823], y = [202, 202]
+render x = [823, 823], y = [102, 102]
+render x = [820, 820], y = [8, 8]
+render x = [822, 822], y = [215, 215]
+render x = [935, 935], y = [415, 415]
+render x = [935, 935], y = [8, 8]
+render x = [822, 822], y = [402, 402]
+render x = [822, 822], y = [202, 202]
+render x = [822, 822], y = [102, 102]
+=+=+=+=+= Iteration 166 =+=+=+=+=
+area_rough_count: 1024
+render x = [866, 866], y = [506, 506]
+render x = [863, 863], y = [506, 506]
+render x = [824, 824], y = [8, 8]
+render x = [865, 865], y = [506, 506]
+render x = [824, 824], y = [215, 215]
+render x = [937, 937], y = [415, 415]
+render x = [937, 937], y = [8, 8]
+render x = [824, 824], y = [402, 402]
+render x = [824, 824], y = [202, 202]
+render x = [824, 824], y = [102, 102]
+=+=+=+=+= Iteration 167 =+=+=+=+=
+area_rough_count: 1024
+render x = [868, 868], y = [506, 506]
+render x = [873, 873], y = [506, 506]
+render x = [878, 878], y = [506, 506]
+render x = [871, 871], y = [506, 506]
+render x = [870, 870], y = [506, 506]
+render x = [875, 875], y = [506, 506]
+render x = [864, 864], y = [506, 506]
+render x = [867, 867], y = [506, 506]
+render x = [876, 876], y = [506, 506]
+=+=+=+=+= Iteration 168 =+=+=+=+=
+area_rough_count: 1024
+render x = [879, 879], y = [506, 506]
+render x = [869, 869], y = [506, 506]
+render x = [874, 874], y = [506, 506]
+render x = [880, 880], y = [506, 506]
+render x = [872, 872], y = [506, 506]
+render x = [877, 877], y = [506, 506]
+=+=+=+=+= Iteration 169 =+=+=+=+=
+area_rough_count: 1024
+render x = [881, 881], y = [506, 506]
+=+=+=+=+= Iteration 170 =+=+=+=+=
+area_rough_count: 960
+render x = [398, 398], y = [0, 0]
+render x = [333, 333], y = [1, 1]
+render x = [328, 328], y = [1, 1]
+=+=+=+=+= Iteration 171 =+=+=+=+=
+area_rough_count: 960
+render x = [411, 411], y = [1, 1]
+render x = [796, 796], y = [65, 65]
+render x = [796, 796], y = [415, 415]
+render x = [796, 796], y = [8, 8]
+render x = [411, 411], y = [0, 0]
+render x = [796, 796], y = [215, 215]
+render x = [664, 664], y = [27, 27]
+render x = [1105, 1105], y = [8, 8]
+render x = [1105, 1105], y = [215, 215]
+render x = [1105, 1105], y = [115, 115]
+render x = [655, 655], y = [27, 27]
+=+=+=+=+= Iteration 172 =+=+=+=+=
+area_rough_count: 960
+render x = [821, 821], y = [65, 65]
+render x = [821, 821], y = [415, 415]
+render x = [797, 797], y = [65, 65]
+render x = [797, 797], y = [415, 415]
+render x = [797, 797], y = [8, 8]
+render x = [797, 797], y = [215, 215]
+render x = [665, 665], y = [27, 27]
+render x = [1106, 1106], y = [8, 8]
+render x = [1106, 1106], y = [215, 215]
+render x = [1106, 1106], y = [115, 115]
+render x = [821, 821], y = [26, 26]
+render x = [821, 821], y = [7, 7]
+render x = [821, 821], y = [52, 52]
+render x = [821, 821], y = [27, 27]
+render x = [412, 412], y = [0, 0]
+render x = [656, 656], y = [27, 27]
+render x = [412, 412], y = [1, 1]
+render x = [821, 821], y = [46, 46]
+render x = [821, 821], y = [201, 201]
+render x = [821, 821], y = [101, 101]
+=+=+=+=+= Iteration 173 =+=+=+=+=
+area_rough_count: 960
+render x = [823, 823], y = [52, 52]
+render x = [823, 823], y = [27, 27]
+render x = [822, 822], y = [65, 65]
+render x = [823, 823], y = [65, 65]
+render x = [823, 823], y = [415, 415]
+render x = [823, 823], y = [46, 46]
+render x = [823, 823], y = [201, 201]
+render x = [823, 823], y = [101, 101]
+render x = [822, 822], y = [415, 415]
+render x = [823, 823], y = [26, 26]
+render x = [823, 823], y = [7, 7]
+render x = [822, 822], y = [26, 26]
+render x = [822, 822], y = [7, 7]
+render x = [822, 822], y = [46, 46]
+render x = [822, 822], y = [52, 52]
+render x = [822, 822], y = [27, 27]
+render x = [822, 822], y = [201, 201]
+render x = [822, 822], y = [101, 101]
+=+=+=+=+= Iteration 174 =+=+=+=+=
+area_rough_count: 960
+render x = [824, 824], y = [65, 65]
+render x = [824, 824], y = [415, 415]
+render x = [824, 824], y = [46, 46]
+render x = [824, 824], y = [201, 201]
+render x = [824, 824], y = [101, 101]
+render x = [824, 824], y = [26, 26]
+render x = [824, 824], y = [7, 7]
+render x = [824, 824], y = [52, 52]
+render x = [824, 824], y = [27, 27]
+=+=+=+=+= Iteration 175 =+=+=+=+=
+area_rough_count: 896
+render x = [397, 397], y = [1, 1]
+render x = [397, 397], y = [0, 0]
+render x = [332, 332], y = [1, 1]
+render x = [327, 327], y = [1, 1]
+render x = [791, 791], y = [402, 402]
+render x = [791, 791], y = [202, 202]
+render x = [791, 791], y = [102, 102]
+render x = [791, 791], y = [101, 101]
+render x = [336, 336], y = [1, 1]
+render x = [796, 796], y = [102, 102]
+render x = [796, 796], y = [101, 101]
+render x = [1119, 1119], y = [8, 8]
+render x = [1119, 1119], y = [215, 215]
+render x = [1119, 1119], y = [115, 115]
+render x = [801, 801], y = [46, 46]
+render x = [801, 801], y = [201, 201]
+render x = [810, 810], y = [27, 27]
+render x = [398, 398], y = [1, 1]
+=+=+=+=+= Iteration 176 =+=+=+=+=
+area_rough_count: 960
+render x = [796, 796], y = [27, 27]
+render x = [662, 662], y = [27, 27]
+render x = [1103, 1103], y = [8, 8]
+render x = [1103, 1103], y = [215, 215]
+render x = [1103, 1103], y = [115, 115]
+render x = [653, 653], y = [27, 27]
+render x = [409, 409], y = [1, 1]
+render x = [409, 409], y = [0, 0]
+=+=+=+=+= Iteration 177 =+=+=+=+=
+area_rough_count: 960
+render x = [793, 793], y = [65, 65]
+render x = [793, 793], y = [415, 415]
+render x = [793, 793], y = [8, 8]
+render x = [793, 793], y = [215, 215]
+=+=+=+=+= Iteration 178 =+=+=+=+=
+area_rough_count: 1024
+render x = [816, 816], y = [26, 26]
+render x = [816, 816], y = [7, 7]
+render x = [816, 816], y = [52, 52]
+render x = [816, 816], y = [27, 27]
+render x = [816, 816], y = [65, 65]
+render x = [818, 818], y = [65, 65]
+render x = [816, 816], y = [102, 102]
+render x = [816, 816], y = [415, 415]
+render x = [812, 812], y = [27, 27]
+render x = [816, 816], y = [46, 46]
+render x = [818, 818], y = [102, 102]
+render x = [818, 818], y = [415, 415]
+render x = [794, 794], y = [65, 65]
+render x = [794, 794], y = [415, 415]
+render x = [794, 794], y = [8, 8]
+render x = [794, 794], y = [215, 215]
+render x = [818, 818], y = [46, 46]
+render x = [818, 818], y = [201, 201]
+render x = [818, 818], y = [101, 101]
+render x = [818, 818], y = [26, 26]
+render x = [816, 816], y = [201, 201]
+render x = [816, 816], y = [101, 101]
+=+=+=+=+= Iteration 179 =+=+=+=+=
+area_rough_count: 1024
+=+=+=+=+= Iteration 180 =+=+=+=+=
+area_rough_count: 960
+render x = [884, 884], y = [456, 456]
+render x = [818, 818], y = [7, 7]
+render x = [818, 818], y = [52, 52]
+render x = [818, 818], y = [27, 27]
+render x = [817, 817], y = [102, 102]
+render x = [817, 817], y = [415, 415]
+render x = [813, 813], y = [27, 27]
+render x = [817, 817], y = [46, 46]
+render x = [817, 817], y = [201, 201]
+render x = [817, 817], y = [101, 101]
+render x = [814, 814], y = [27, 27]
+render x = [817, 817], y = [26, 26]
+render x = [817, 817], y = [7, 7]
+render x = [817, 817], y = [52, 52]
+render x = [817, 817], y = [27, 27]
+render x = [817, 817], y = [65, 65]
+render x = [815, 815], y = [27, 27]
+render x = [884, 884], y = [403, 403]
+render x = [884, 884], y = [203, 203]
+render x = [884, 884], y = [103, 103]
+=+=+=+=+= Iteration 181 =+=+=+=+=
+area_rough_count: 960
+render x = [889, 889], y = [456, 456]
+render x = [882, 882], y = [403, 403]
+render x = [882, 882], y = [203, 203]
+render x = [882, 882], y = [103, 103]
+render x = [882, 882], y = [456, 456]
+render x = [885, 885], y = [403, 403]
+render x = [885, 885], y = [203, 203]
+render x = [885, 885], y = [103, 103]
+render x = [885, 885], y = [456, 456]
+render x = [887, 887], y = [403, 403]
+render x = [887, 887], y = [203, 203]
+render x = [887, 887], y = [103, 103]
+render x = [887, 887], y = [456, 456]
+render x = [889, 889], y = [403, 403]
+render x = [889, 889], y = [203, 203]
+render x = [889, 889], y = [103, 103]
+=+=+=+=+= Iteration 182 =+=+=+=+=
+area_rough_count: 960
+render x = [890, 890], y = [203, 203]
+render x = [890, 890], y = [103, 103]
+render x = [890, 890], y = [456, 456]
+render x = [883, 883], y = [403, 403]
+render x = [883, 883], y = [203, 203]
+render x = [883, 883], y = [103, 103]
+render x = [883, 883], y = [456, 456]
+render x = [886, 886], y = [403, 403]
+render x = [886, 886], y = [203, 203]
+render x = [886, 886], y = [103, 103]
+render x = [886, 886], y = [456, 456]
+render x = [888, 888], y = [403, 403]
+render x = [888, 888], y = [203, 203]
+render x = [888, 888], y = [103, 103]
+render x = [888, 888], y = [456, 456]
+render x = [890, 890], y = [403, 403]
+=+=+=+=+= Iteration 183 =+=+=+=+=
+area_rough_count: 896
+render x = [803, 803], y = [8, 8]
+render x = [803, 803], y = [215, 215]
+render x = [671, 671], y = [27, 27]
+render x = [807, 807], y = [27, 27]
+=+=+=+=+= Iteration 184 =+=+=+=+=
+area_rough_count: 960
+render x = [793, 793], y = [27, 27]
+render x = [804, 804], y = [8, 8]
+render x = [804, 804], y = [215, 215]
+render x = [672, 672], y = [27, 27]
+render x = [808, 808], y = [27, 27]
+render x = [797, 797], y = [27, 27]
+render x = [795, 795], y = [27, 27]
+render x = [795, 795], y = [65, 65]
+render x = [795, 795], y = [415, 415]
+render x = [795, 795], y = [8, 8]
+render x = [795, 795], y = [215, 215]
+render x = [663, 663], y = [27, 27]
+render x = [1104, 1104], y = [8, 8]
+render x = [1104, 1104], y = [215, 215]
+render x = [1104, 1104], y = [115, 115]
+render x = [654, 654], y = [27, 27]
+render x = [410, 410], y = [1, 1]
+render x = [410, 410], y = [0, 0]
+=+=+=+=+= Iteration 185 =+=+=+=+=
+area_rough_count: 960
+render x = [819, 819], y = [46, 46]
+render x = [819, 819], y = [201, 201]
+render x = [819, 819], y = [101, 101]
+render x = [816, 816], y = [402, 402]
+render x = [816, 816], y = [202, 202]
+render x = [819, 819], y = [215, 215]
+render x = [819, 819], y = [26, 26]
+render x = [819, 819], y = [7, 7]
+render x = [819, 819], y = [52, 52]
+render x = [819, 819], y = [27, 27]
+=+=+=+=+= Iteration 186 =+=+=+=+=
+area_rough_count: 960
+render x = [820, 820], y = [102, 102]
+render x = [820, 820], y = [415, 415]
+render x = [817, 817], y = [402, 402]
+render x = [817, 817], y = [202, 202]
+render x = [820, 820], y = [215, 215]
+render x = [933, 933], y = [415, 415]
+render x = [933, 933], y = [8, 8]
+render x = [820, 820], y = [402, 402]
+render x = [820, 820], y = [202, 202]
+=+=+=+=+= Iteration 187 =+=+=+=+=
+area_rough_count: 960
+render x = [882, 882], y = [506, 506]
+render x = [882, 882], y = [53, 53]
+render x = [882, 882], y = [306, 306]
+render x = [885, 885], y = [506, 506]
+render x = [885, 885], y = [53, 53]
+render x = [885, 885], y = [306, 306]
+render x = [863, 863], y = [53, 53]
+render x = [866, 866], y = [203, 203]
+render x = [884, 884], y = [506, 506]
+render x = [884, 884], y = [53, 53]
+render x = [884, 884], y = [306, 306]
+render x = [863, 863], y = [306, 306]
+render x = [863, 863], y = [403, 403]
+render x = [865, 865], y = [53, 53]
+render x = [865, 865], y = [306, 306]
+render x = [865, 865], y = [403, 403]
+render x = [866, 866], y = [103, 103]
+render x = [866, 866], y = [456, 456]
+=+=+=+=+= Iteration 188 =+=+=+=+=
+area_rough_count: 960
+render x = [896, 896], y = [506, 506]
+render x = [896, 896], y = [53, 53]
+render x = [896, 896], y = [306, 306]
+render x = [883, 883], y = [506, 506]
+render x = [883, 883], y = [53, 53]
+render x = [896, 896], y = [403, 403]
+render x = [896, 896], y = [203, 203]
+render x = [896, 896], y = [103, 103]
+render x = [883, 883], y = [306, 306]
+render x = [886, 886], y = [506, 506]
+render x = [886, 886], y = [53, 53]
+render x = [886, 886], y = [306, 306]
+render x = [864, 864], y = [53, 53]
+render x = [864, 864], y = [306, 306]
+render x = [864, 864], y = [403, 403]
+render x = [896, 896], y = [456, 456]
+render x = [876, 876], y = [53, 53]
+render x = [876, 876], y = [306, 306]
+render x = [876, 876], y = [403, 403]
+render x = [876, 876], y = [203, 203]
+render x = [876, 876], y = [103, 103]
+render x = [876, 876], y = [456, 456]
+render x = [867, 867], y = [203, 203]
+render x = [867, 867], y = [103, 103]
+render x = [867, 867], y = [456, 456]
+=+=+=+=+= Iteration 189 =+=+=+=+=
+area_rough_count: 960
+render x = [898, 898], y = [506, 506]
+render x = [898, 898], y = [53, 53]
+render x = [898, 898], y = [306, 306]
+render x = [898, 898], y = [403, 403]
+render x = [898, 898], y = [203, 203]
+render x = [898, 898], y = [103, 103]
+render x = [897, 897], y = [506, 506]
+render x = [897, 897], y = [53, 53]
+render x = [897, 897], y = [306, 306]
+render x = [897, 897], y = [403, 403]
+render x = [897, 897], y = [203, 203]
+render x = [897, 897], y = [103, 103]
+render x = [897, 897], y = [456, 456]
+render x = [877, 877], y = [53, 53]
+render x = [877, 877], y = [306, 306]
+render x = [877, 877], y = [403, 403]
+render x = [877, 877], y = [203, 203]
+render x = [877, 877], y = [103, 103]
+render x = [898, 898], y = [456, 456]
+render x = [877, 877], y = [456, 456]
+=+=+=+=+= Iteration 190 =+=+=+=+=
+area_rough_count: 960
+render x = [899, 899], y = [506, 506]
+render x = [899, 899], y = [53, 53]
+render x = [899, 899], y = [306, 306]
+render x = [899, 899], y = [403, 403]
+render x = [899, 899], y = [203, 203]
+render x = [899, 899], y = [103, 103]
+render x = [899, 899], y = [456, 456]
+=+=+=+=+= Iteration 191 =+=+=+=+=
+area_rough_count: 896
+render x = [819, 819], y = [65, 65]
+render x = [816, 816], y = [215, 215]
+render x = [929, 929], y = [415, 415]
+render x = [932, 932], y = [415, 415]
+render x = [932, 932], y = [8, 8]
+render x = [819, 819], y = [402, 402]
+render x = [819, 819], y = [202, 202]
+render x = [819, 819], y = [102, 102]
+render x = [819, 819], y = [415, 415]
+render x = [820, 820], y = [46, 46]
+render x = [820, 820], y = [201, 201]
+render x = [820, 820], y = [101, 101]
+render x = [820, 820], y = [26, 26]
+render x = [820, 820], y = [7, 7]
+render x = [820, 820], y = [52, 52]
+render x = [820, 820], y = [27, 27]
+render x = [820, 820], y = [65, 65]
+render x = [817, 817], y = [215, 215]
+render x = [930, 930], y = [415, 415]
+render x = [930, 930], y = [8, 8]
+render x = [929, 929], y = [8, 8]
+=+=+=+=+= Iteration 192 =+=+=+=+=
+area_rough_count: 960
+render x = [794, 794], y = [27, 27]
+=+=+=+=+= Iteration 193 =+=+=+=+=
+area_rough_count: 960
+=+=+=+=+= Iteration 194 =+=+=+=+=
+area_rough_count: 960
+=+=+=+=+= Iteration 195 =+=+=+=+=
+area_rough_count: 960
+render x = [889, 889], y = [306, 306]
+render x = [871, 871], y = [306, 306]
+render x = [871, 871], y = [403, 403]
+render x = [871, 871], y = [203, 203]
+render x = [871, 871], y = [103, 103]
+render x = [871, 871], y = [456, 456]
+=+=+=+=+= Iteration 196 =+=+=+=+=
+area_rough_count: 960
+render x = [890, 890], y = [306, 306]
+render x = [872, 872], y = [306, 306]
+render x = [872, 872], y = [403, 403]
+render x = [872, 872], y = [203, 203]
+render x = [872, 872], y = [103, 103]
+render x = [872, 872], y = [456, 456]
+=+=+=+=+= Iteration 197 =+=+=+=+=
+area_rough_count: 896
+render x = [866, 866], y = [403, 403]
+render x = [866, 866], y = [53, 53]
+render x = [818, 818], y = [215, 215]
+render x = [931, 931], y = [415, 415]
+render x = [931, 931], y = [8, 8]
+render x = [818, 818], y = [402, 402]
+render x = [818, 818], y = [202, 202]
+render x = [866, 866], y = [306, 306]
+=+=+=+=+= Iteration 198 =+=+=+=+=
+area_rough_count: 960
+render x = [873, 873], y = [203, 203]
+render x = [873, 873], y = [103, 103]
+render x = [873, 873], y = [456, 456]
+render x = [878, 878], y = [53, 53]
+render x = [878, 878], y = [306, 306]
+render x = [878, 878], y = [403, 403]
+render x = [878, 878], y = [203, 203]
+render x = [878, 878], y = [103, 103]
+render x = [878, 878], y = [456, 456]
+render x = [863, 863], y = [456, 456]
+render x = [867, 867], y = [403, 403]
+render x = [865, 865], y = [456, 456]
+render x = [887, 887], y = [306, 306]
+render x = [863, 863], y = [203, 203]
+render x = [863, 863], y = [103, 103]
+render x = [865, 865], y = [203, 203]
+render x = [865, 865], y = [103, 103]
+render x = [875, 875], y = [53, 53]
+render x = [875, 875], y = [306, 306]
+render x = [875, 875], y = [403, 403]
+render x = [875, 875], y = [203, 203]
+render x = [875, 875], y = [103, 103]
+render x = [875, 875], y = [456, 456]
+render x = [867, 867], y = [53, 53]
+render x = [867, 867], y = [306, 306]
+render x = [873, 873], y = [53, 53]
+render x = [873, 873], y = [306, 306]
+render x = [873, 873], y = [403, 403]
+=+=+=+=+= Iteration 199 =+=+=+=+=
+area_rough_count: 960
+render x = [887, 887], y = [506, 506]
+render x = [887, 887], y = [53, 53]
+render x = [880, 880], y = [53, 53]
+render x = [880, 880], y = [306, 306]
+render x = [880, 880], y = [403, 403]
+render x = [880, 880], y = [203, 203]
+render x = [880, 880], y = [103, 103]
+render x = [880, 880], y = [456, 456]
+render x = [868, 868], y = [306, 306]
+render x = [868, 868], y = [403, 403]
+render x = [894, 894], y = [103, 103]
+render x = [894, 894], y = [456, 456]
+render x = [891, 891], y = [506, 506]
+render x = [891, 891], y = [53, 53]
+render x = [891, 891], y = [306, 306]
+render x = [891, 891], y = [403, 403]
+render x = [891, 891], y = [203, 203]
+render x = [891, 891], y = [103, 103]
+render x = [891, 891], y = [456, 456]
+render x = [868, 868], y = [203, 203]
+render x = [868, 868], y = [103, 103]
+render x = [868, 868], y = [456, 456]
+render x = [894, 894], y = [506, 506]
+render x = [894, 894], y = [53, 53]
+render x = [894, 894], y = [306, 306]
+render x = [894, 894], y = [403, 403]
+render x = [894, 894], y = [203, 203]
+=+=+=+=+= Iteration 200 =+=+=+=+=
+area_rough_count: 960
+render x = [895, 895], y = [103, 103]
+render x = [895, 895], y = [456, 456]
+render x = [868, 868], y = [53, 53]
+render x = [870, 870], y = [53, 53]
+render x = [888, 888], y = [506, 506]
+render x = [888, 888], y = [53, 53]
+render x = [881, 881], y = [53, 53]
+render x = [881, 881], y = [306, 306]
+render x = [881, 881], y = [403, 403]
+render x = [881, 881], y = [203, 203]
+render x = [881, 881], y = [103, 103]
+render x = [881, 881], y = [456, 456]
+render x = [892, 892], y = [506, 506]
+render x = [892, 892], y = [53, 53]
+render x = [869, 869], y = [306, 306]
+render x = [869, 869], y = [403, 403]
+render x = [892, 892], y = [306, 306]
+render x = [892, 892], y = [403, 403]
+render x = [892, 892], y = [203, 203]
+render x = [892, 892], y = [103, 103]
+render x = [892, 892], y = [456, 456]
+render x = [869, 869], y = [203, 203]
+render x = [869, 869], y = [103, 103]
+render x = [869, 869], y = [456, 456]
+render x = [895, 895], y = [506, 506]
+render x = [895, 895], y = [53, 53]
+render x = [895, 895], y = [306, 306]
+render x = [895, 895], y = [403, 403]
+render x = [895, 895], y = [203, 203]
+=+=+=+=+= Iteration 201 =+=+=+=+=
+area_rough_count: 960
+render x = [869, 869], y = [53, 53]
+=+=+=+=+= Iteration 202 =+=+=+=+=
+area_rough_count: 896
+=+=+=+=+= Iteration 203 =+=+=+=+=
+area_rough_count: 896
+render x = [874, 874], y = [403, 403]
+render x = [874, 874], y = [203, 203]
+render x = [874, 874], y = [103, 103]
+render x = [874, 874], y = [456, 456]
+render x = [879, 879], y = [53, 53]
+render x = [879, 879], y = [306, 306]
+render x = [879, 879], y = [403, 403]
+render x = [879, 879], y = [203, 203]
+render x = [879, 879], y = [103, 103]
+render x = [879, 879], y = [456, 456]
+render x = [864, 864], y = [456, 456]
+render x = [893, 893], y = [506, 506]
+render x = [893, 893], y = [53, 53]
+render x = [893, 893], y = [306, 306]
+render x = [893, 893], y = [403, 403]
+render x = [893, 893], y = [203, 203]
+render x = [893, 893], y = [103, 103]
+render x = [893, 893], y = [456, 456]
+render x = [870, 870], y = [203, 203]
+render x = [870, 870], y = [103, 103]
+render x = [870, 870], y = [456, 456]
+render x = [864, 864], y = [203, 203]
+render x = [864, 864], y = [103, 103]
+render x = [888, 888], y = [306, 306]
+render x = [870, 870], y = [306, 306]
+render x = [870, 870], y = [403, 403]
+render x = [874, 874], y = [53, 53]
+render x = [874, 874], y = [306, 306]
+=+=+=+=+= Iteration 204 =+=+=+=+=
+area_rough_count: 896
+render x = [871, 871], y = [53, 53]
+render x = [889, 889], y = [506, 506]
+render x = [889, 889], y = [53, 53]
+=+=+=+=+= Iteration 205 =+=+=+=+=
+area_rough_count: 896
+render x = [872, 872], y = [53, 53]
+render x = [890, 890], y = [506, 506]
+render x = [890, 890], y = [53, 53]
+=+=+=+=+= Iteration 206 =+=+=+=+=
+area_rough_count: 832
+=+=+=+=+= Iteration 207 =+=+=+=+=
+area_rough_count: 960
+=+=+=+=+= Iteration 208 =+=+=+=+=
+area_rough_count: 960
+=+=+=+=+= Iteration 209 =+=+=+=+=
+area_rough_count: 960
+=+=+=+=+= Iteration 210 =+=+=+=+=
+area_rough_count: 960
+=+=+=+=+= Iteration 211 =+=+=+=+=
+area_rough_count: 1024
+=+=+=+=+= Iteration 212 =+=+=+=+=
+area_rough_count: 1024
+=+=+=+=+= Iteration 213 =+=+=+=+=
+area_rough_count: 1152
+render x = [1081, 1081], y = [101, 101]
+render x = [1081, 1081], y = [26, 26]
+=+=+=+=+= Iteration 214 =+=+=+=+=
+area_rough_count: 1152
+render x = [585, 585], y = [1, 1]
+render x = [585, 585], y = [0, 0]
+render x = [772, 772], y = [28, 28]
+render x = [772, 772], y = [15, 15]
+render x = [351, 351], y = [1, 1]
+render x = [351, 351], y = [0, 0]
+=+=+=+=+= Iteration 215 =+=+=+=+=
+area_rough_count: 1152
+render x = [355, 355], y = [1, 1]
+render x = [355, 355], y = [0, 0]
+render x = [586, 586], y = [1, 1]
+render x = [586, 586], y = [0, 0]
+render x = [773, 773], y = [28, 28]
+render x = [773, 773], y = [15, 15]
+render x = [352, 352], y = [1, 1]
+render x = [352, 352], y = [0, 0]
+=+=+=+=+= Iteration 216 =+=+=+=+=
+area_rough_count: 1152
+render x = [1168, 1168], y = [203, 203]
+render x = [1168, 1168], y = [103, 103]
+render x = [1171, 1171], y = [203, 203]
+render x = [1171, 1171], y = [103, 103]
+render x = [1171, 1171], y = [456, 456]
+render x = [1168, 1168], y = [65, 65]
+render x = [1168, 1168], y = [415, 415]
+render x = [1149, 1149], y = [115, 115]
+render x = [702, 702], y = [65, 65]
+render x = [1170, 1170], y = [65, 65]
+render x = [1170, 1170], y = [415, 415]
+render x = [1151, 1151], y = [115, 115]
+render x = [701, 701], y = [27, 27]
+render x = [701, 701], y = [65, 65]
+render x = [356, 356], y = [1, 1]
+render x = [356, 356], y = [0, 0]
+render x = [699, 699], y = [27, 27]
+render x = [699, 699], y = [65, 65]
+render x = [1159, 1159], y = [115, 115]
+render x = [709, 709], y = [27, 27]
+render x = [709, 709], y = [65, 65]
+render x = [709, 709], y = [415, 415]
+render x = [709, 709], y = [8, 8]
+render x = [709, 709], y = [215, 215]
+render x = [709, 709], y = [115, 115]
+render x = [1168, 1168], y = [456, 456]
+render x = [1171, 1171], y = [65, 65]
+render x = [1171, 1171], y = [415, 415]
+render x = [1152, 1152], y = [115, 115]
+render x = [1170, 1170], y = [203, 203]
+render x = [702, 702], y = [27, 27]
+render x = [1170, 1170], y = [456, 456]
+=+=+=+=+= Iteration 217 =+=+=+=+=
+area_rough_count: 1152
+render x = [711, 711], y = [115, 115]
+render x = [1161, 1161], y = [115, 115]
+render x = [711, 711], y = [27, 27]
+render x = [711, 711], y = [65, 65]
+render x = [711, 711], y = [415, 415]
+render x = [711, 711], y = [8, 8]
+render x = [711, 711], y = [215, 215]
+render x = [703, 703], y = [65, 65]
+render x = [1169, 1169], y = [203, 203]
+render x = [1169, 1169], y = [103, 103]
+render x = [1172, 1172], y = [203, 203]
+render x = [1172, 1172], y = [103, 103]
+render x = [1172, 1172], y = [456, 456]
+render x = [1169, 1169], y = [65, 65]
+render x = [1169, 1169], y = [415, 415]
+render x = [1150, 1150], y = [115, 115]
+render x = [700, 700], y = [27, 27]
+render x = [700, 700], y = [65, 65]
+=+=+=+=+= Iteration 218 =+=+=+=+=
+area_rough_count: 1152
+render x = [1162, 1162], y = [115, 115]
+render x = [712, 712], y = [27, 27]
+render x = [712, 712], y = [65, 65]
+render x = [712, 712], y = [415, 415]
+render x = [712, 712], y = [8, 8]
+render x = [712, 712], y = [215, 215]
+render x = [712, 712], y = [115, 115]
+=+=+=+=+= Iteration 219 =+=+=+=+=
+area_rough_count: 1088
+render x = [703, 703], y = [27, 27]
+render x = [933, 933], y = [26, 26]
+render x = [1083, 1083], y = [28, 28]
+render x = [1083, 1083], y = [15, 15]
+render x = [1083, 1083], y = [46, 46]
+render x = [1083, 1083], y = [201, 201]
+render x = [1083, 1083], y = [101, 101]
+render x = [1083, 1083], y = [26, 26]
+render x = [1170, 1170], y = [103, 103]
+render x = [1160, 1160], y = [115, 115]
+render x = [710, 710], y = [27, 27]
+render x = [710, 710], y = [65, 65]
+render x = [710, 710], y = [415, 415]
+render x = [710, 710], y = [8, 8]
+render x = [710, 710], y = [215, 215]
+render x = [710, 710], y = [115, 115]
+render x = [1169, 1169], y = [456, 456]
+render x = [1172, 1172], y = [65, 65]
+render x = [1172, 1172], y = [415, 415]
+render x = [1153, 1153], y = [115, 115]
+=+=+=+=+= Iteration 220 =+=+=+=+=
+area_rough_count: 1088
+render x = [777, 777], y = [15, 15]
+render x = [589, 589], y = [1, 1]
+render x = [589, 589], y = [0, 0]
+render x = [777, 777], y = [28, 28]
+=+=+=+=+= Iteration 221 =+=+=+=+=
+area_rough_count: 1088
+render x = [778, 778], y = [15, 15]
+render x = [709, 709], y = [606, 606]
+render x = [709, 709], y = [506, 506]
+render x = [1178, 1178], y = [203, 203]
+render x = [1178, 1178], y = [103, 103]
+render x = [1178, 1178], y = [456, 456]
+render x = [1178, 1178], y = [65, 65]
+render x = [590, 590], y = [1, 1]
+render x = [590, 590], y = [0, 0]
+render x = [778, 778], y = [28, 28]
+render x = [1178, 1178], y = [415, 415]
+=+=+=+=+= Iteration 222 =+=+=+=+=
+area_rough_count: 1088
+render x = [701, 701], y = [115, 115]
+render x = [701, 701], y = [606, 606]
+render x = [702, 702], y = [115, 115]
+render x = [702, 702], y = [606, 606]
+render x = [699, 699], y = [415, 415]
+render x = [699, 699], y = [8, 8]
+render x = [699, 699], y = [215, 215]
+render x = [699, 699], y = [115, 115]
+render x = [699, 699], y = [606, 606]
+render x = [702, 702], y = [415, 415]
+render x = [702, 702], y = [8, 8]
+render x = [702, 702], y = [215, 215]
+render x = [711, 711], y = [606, 606]
+render x = [711, 711], y = [506, 506]
+render x = [1180, 1180], y = [203, 203]
+render x = [1180, 1180], y = [103, 103]
+render x = [701, 701], y = [415, 415]
+render x = [701, 701], y = [8, 8]
+render x = [701, 701], y = [215, 215]
+render x = [710, 710], y = [606, 606]
+render x = [710, 710], y = [506, 506]
+render x = [1179, 1179], y = [203, 203]
+render x = [1179, 1179], y = [103, 103]
+render x = [1179, 1179], y = [456, 456]
+render x = [1180, 1180], y = [456, 456]
+render x = [1180, 1180], y = [65, 65]
+render x = [1180, 1180], y = [415, 415]
+render x = [1179, 1179], y = [65, 65]
+render x = [1179, 1179], y = [415, 415]
+=+=+=+=+= Iteration 223 =+=+=+=+=
+area_rough_count: 1088
+render x = [700, 700], y = [415, 415]
+render x = [700, 700], y = [8, 8]
+render x = [700, 700], y = [215, 215]
+render x = [700, 700], y = [115, 115]
+render x = [700, 700], y = [606, 606]
+render x = [703, 703], y = [115, 115]
+render x = [703, 703], y = [606, 606]
+render x = [703, 703], y = [415, 415]
+render x = [703, 703], y = [8, 8]
+render x = [703, 703], y = [215, 215]
+render x = [712, 712], y = [606, 606]
+render x = [712, 712], y = [506, 506]
+render x = [1181, 1181], y = [203, 203]
+render x = [1181, 1181], y = [103, 103]
+render x = [1181, 1181], y = [456, 456]
+render x = [1181, 1181], y = [65, 65]
+render x = [1181, 1181], y = [415, 415]
+=+=+=+=+= Iteration 224 =+=+=+=+=
+area_rough_count: 1024
+=+=+=+=+= Iteration 225 =+=+=+=+=
+area_rough_count: 1088
+=+=+=+=+= Iteration 226 =+=+=+=+=
+area_rough_count: 1088
+=+=+=+=+= Iteration 227 =+=+=+=+=
+area_rough_count: 1024
+=+=+=+=+= Iteration 228 =+=+=+=+=
+area_rough_count: 1152
+=+=+=+=+= Iteration 229 =+=+=+=+=
+area_rough_count: 1152
+=+=+=+=+= Iteration 230 =+=+=+=+=
+area_rough_count: 1088
+render x = [304, 304], y = [1, 1]
+render x = [304, 304], y = [0, 0]
+render x = [904, 904], y = [65, 65]
+render x = [303, 303], y = [1, 1]
+render x = [303, 303], y = [0, 0]
+render x = [903, 903], y = [65, 65]
+=+=+=+=+= Iteration 231 =+=+=+=+=
+area_rough_count: 1088
+render x = [1058, 1058], y = [215, 215]
+render x = [1058, 1058], y = [115, 115]
+render x = [608, 608], y = [27, 27]
+=+=+=+=+= Iteration 232 =+=+=+=+=
+area_rough_count: 1152
+render x = [1055, 1055], y = [8, 8]
+render x = [1055, 1055], y = [215, 215]
+render x = [1059, 1059], y = [215, 215]
+render x = [1059, 1059], y = [115, 115]
+render x = [609, 609], y = [27, 27]
+render x = [609, 609], y = [65, 65]
+render x = [609, 609], y = [415, 415]
+render x = [609, 609], y = [8, 8]
+render x = [609, 609], y = [215, 215]
+render x = [609, 609], y = [115, 115]
+render x = [609, 609], y = [606, 606]
+render x = [609, 609], y = [506, 506]
+=+=+=+=+= Iteration 233 =+=+=+=+=
+area_rough_count: 1152
+render x = [1074, 1074], y = [28, 28]
+render x = [1074, 1074], y = [15, 15]
+render x = [1074, 1074], y = [46, 46]
+render x = [1074, 1074], y = [201, 201]
+render x = [1074, 1074], y = [101, 101]
+render x = [1074, 1074], y = [26, 26]
+render x = [1076, 1076], y = [28, 28]
+render x = [1076, 1076], y = [15, 15]
+render x = [1076, 1076], y = [46, 46]
+render x = [1076, 1076], y = [201, 201]
+render x = [1076, 1076], y = [101, 101]
+render x = [1076, 1076], y = [26, 26]
+render x = [926, 926], y = [201, 201]
+render x = [926, 926], y = [101, 101]
+render x = [926, 926], y = [26, 26]
+render x = [1056, 1056], y = [8, 8]
+render x = [1056, 1056], y = [215, 215]
+=+=+=+=+= Iteration 234 =+=+=+=+=
+area_rough_count: 1152
+render x = [1075, 1075], y = [101, 101]
+render x = [1075, 1075], y = [26, 26]
+render x = [575, 575], y = [1, 1]
+render x = [575, 575], y = [0, 0]
+render x = [576, 576], y = [1, 1]
+render x = [576, 576], y = [0, 0]
+render x = [1159, 1159], y = [8, 8]
+render x = [1159, 1159], y = [215, 215]
+render x = [765, 765], y = [28, 28]
+render x = [765, 765], y = [15, 15]
+render x = [573, 573], y = [1, 1]
+render x = [573, 573], y = [0, 0]
+render x = [1075, 1075], y = [28, 28]
+render x = [1075, 1075], y = [15, 15]
+render x = [1075, 1075], y = [46, 46]
+render x = [1075, 1075], y = [201, 201]
+=+=+=+=+= Iteration 235 =+=+=+=+=
+area_rough_count: 1152
+render x = [577, 577], y = [1, 1]
+render x = [577, 577], y = [0, 0]
+render x = [1160, 1160], y = [8, 8]
+render x = [1160, 1160], y = [215, 215]
+render x = [574, 574], y = [0, 0]
+render x = [1146, 1146], y = [65, 65]
+render x = [766, 766], y = [28, 28]
+render x = [766, 766], y = [15, 15]
+render x = [1161, 1161], y = [8, 8]
+render x = [1144, 1144], y = [65, 65]
+render x = [1144, 1144], y = [203, 203]
+render x = [1147, 1147], y = [203, 203]
+render x = [1144, 1144], y = [103, 103]
+render x = [1144, 1144], y = [456, 456]
+render x = [1146, 1146], y = [203, 203]
+render x = [1146, 1146], y = [103, 103]
+render x = [1146, 1146], y = [456, 456]
+render x = [1147, 1147], y = [103, 103]
+render x = [1147, 1147], y = [456, 456]
+render x = [574, 574], y = [1, 1]
+render x = [1147, 1147], y = [65, 65]
+=+=+=+=+= Iteration 236 =+=+=+=+=
+area_rough_count: 1152
+render x = [1148, 1148], y = [65, 65]
+render x = [1162, 1162], y = [8, 8]
+render x = [1145, 1145], y = [65, 65]
+render x = [1145, 1145], y = [456, 456]
+render x = [1154, 1154], y = [415, 415]
+render x = [1152, 1152], y = [203, 203]
+render x = [1152, 1152], y = [103, 103]
+render x = [1149, 1149], y = [203, 203]
+render x = [1149, 1149], y = [103, 103]
+render x = [1149, 1149], y = [456, 456]
+render x = [1149, 1149], y = [65, 65]
+render x = [1151, 1151], y = [203, 203]
+render x = [1152, 1152], y = [456, 456]
+render x = [1151, 1151], y = [103, 103]
+render x = [1151, 1151], y = [456, 456]
+render x = [1152, 1152], y = [65, 65]
+render x = [1157, 1157], y = [415, 415]
+render x = [1148, 1148], y = [203, 203]
+render x = [1148, 1148], y = [103, 103]
+render x = [1148, 1148], y = [456, 456]
+render x = [1151, 1151], y = [65, 65]
+render x = [1156, 1156], y = [415, 415]
+render x = [1145, 1145], y = [203, 203]
+render x = [1145, 1145], y = [103, 103]
+=+=+=+=+= Iteration 237 =+=+=+=+=
+area_rough_count: 1152
+render x = [1153, 1153], y = [456, 456]
+render x = [1150, 1150], y = [203, 203]
+render x = [1150, 1150], y = [103, 103]
+render x = [1150, 1150], y = [456, 456]
+render x = [1150, 1150], y = [65, 65]
+render x = [1155, 1155], y = [415, 415]
+render x = [1153, 1153], y = [203, 203]
+render x = [1153, 1153], y = [103, 103]
+render x = [1153, 1153], y = [65, 65]
+render x = [1158, 1158], y = [415, 415]
+=+=+=+=+= Iteration 238 =+=+=+=+=
+area_rough_count: 1088
+render x = [1059, 1059], y = [8, 8]
+render x = [1057, 1057], y = [8, 8]
+render x = [1057, 1057], y = [215, 215]
+render x = [1057, 1057], y = [115, 115]
+render x = [607, 607], y = [27, 27]
+render x = [607, 607], y = [65, 65]
+render x = [607, 607], y = [415, 415]
+render x = [607, 607], y = [8, 8]
+render x = [607, 607], y = [215, 215]
+render x = [607, 607], y = [115, 115]
+render x = [607, 607], y = [606, 606]
+render x = [607, 607], y = [506, 506]
+=+=+=+=+= Iteration 239 =+=+=+=+=
+area_rough_count: 1088
+render x = [1161, 1161], y = [215, 215]
+render x = [767, 767], y = [28, 28]
+render x = [767, 767], y = [15, 15]
+=+=+=+=+= Iteration 240 =+=+=+=+=
+area_rough_count: 1088
+render x = [768, 768], y = [15, 15]
+render x = [1159, 1159], y = [415, 415]
+render x = [578, 578], y = [1, 1]
+render x = [578, 578], y = [0, 0]
+render x = [1162, 1162], y = [215, 215]
+render x = [768, 768], y = [28, 28]
+=+=+=+=+= Iteration 241 =+=+=+=+=
+area_rough_count: 1088
+render x = [579, 579], y = [1, 1]
+render x = [579, 579], y = [0, 0]
+render x = [1160, 1160], y = [415, 415]
+render x = [1151, 1151], y = [8, 8]
+render x = [1161, 1161], y = [415, 415]
+render x = [1149, 1149], y = [8, 8]
+render x = [1151, 1151], y = [215, 215]
+render x = [1149, 1149], y = [215, 215]
+render x = [1152, 1152], y = [8, 8]
+render x = [1152, 1152], y = [215, 215]
+render x = [580, 580], y = [1, 1]
+render x = [580, 580], y = [0, 0]
+=+=+=+=+= Iteration 242 =+=+=+=+=
+area_rough_count: 1088
+render x = [581, 581], y = [1, 1]
+render x = [581, 581], y = [0, 0]
+render x = [1162, 1162], y = [415, 415]
+render x = [1159, 1159], y = [103, 103]
+render x = [1159, 1159], y = [456, 456]
+render x = [1159, 1159], y = [65, 65]
+render x = [1154, 1154], y = [103, 103]
+render x = [1154, 1154], y = [456, 456]
+render x = [1154, 1154], y = [65, 65]
+render x = [1157, 1157], y = [103, 103]
+render x = [1157, 1157], y = [456, 456]
+render x = [1157, 1157], y = [65, 65]
+render x = [1150, 1150], y = [8, 8]
+render x = [1156, 1156], y = [103, 103]
+render x = [1156, 1156], y = [456, 456]
+render x = [1150, 1150], y = [215, 215]
+render x = [1153, 1153], y = [8, 8]
+render x = [1153, 1153], y = [215, 215]
+render x = [1156, 1156], y = [65, 65]
+=+=+=+=+= Iteration 243 =+=+=+=+=
+area_rough_count: 1088
+render x = [1161, 1161], y = [103, 103]
+render x = [1155, 1155], y = [103, 103]
+render x = [1155, 1155], y = [456, 456]
+render x = [1155, 1155], y = [65, 65]
+render x = [1160, 1160], y = [103, 103]
+render x = [1160, 1160], y = [456, 456]
+render x = [1160, 1160], y = [65, 65]
+render x = [1158, 1158], y = [103, 103]
+render x = [1158, 1158], y = [456, 456]
+render x = [1158, 1158], y = [65, 65]
+render x = [1161, 1161], y = [456, 456]
+render x = [1161, 1161], y = [65, 65]
+=+=+=+=+= Iteration 244 =+=+=+=+=
+area_rough_count: 1088
+render x = [1162, 1162], y = [456, 456]
+render x = [1162, 1162], y = [65, 65]
+render x = [1162, 1162], y = [103, 103]
+=+=+=+=+= Iteration 245 =+=+=+=+=
+area_rough_count: 1024
+render x = [1058, 1058], y = [8, 8]
+render x = [608, 608], y = [65, 65]
+render x = [608, 608], y = [415, 415]
+render x = [608, 608], y = [8, 8]
+render x = [608, 608], y = [215, 215]
+render x = [608, 608], y = [115, 115]
+render x = [608, 608], y = [606, 606]
+render x = [608, 608], y = [506, 506]
+=+=+=+=+= Iteration 246 =+=+=+=+=
+area_rough_count: 1088
